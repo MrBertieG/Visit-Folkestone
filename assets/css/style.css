@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+nav, ul {
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+/* Page Logo */
+#logo {
+    font-size: 200%;
+    position: relative;
+    margin-left: 60px;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#navigation {
+    font-size: 110%;
+    float: right;
+}
+
+#navigation a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* medium size screen */
+@media screen and (min-width: 400px) {
+    #logo {
+        font-size: 200%;
+        margin-left: 25%;
+}
+}
+/* large screen */
+@media screen and (min-width: 1200px) {
+    #logo {
+        font-size: 200%;
+        margin-left: 50%;
+}
+}
