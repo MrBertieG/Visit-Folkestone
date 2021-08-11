@@ -4,6 +4,10 @@
     border: none;
 }
 
+body {
+    background-color:rgb(211,211,211);
+}
+
 nav, ul {
     list-style-type: none;
     margin-right: 30px;
@@ -24,11 +28,35 @@ header a {
 #navigation {
     font-size: 110%;
     float: right;
+    list-style-type: none;
 }
 
 #navigation a {
     text-decoration: none;
     color: inherit;
+}
+nav, li {
+    display: inline;
+}
+
+/*main banner */
+#main-banner-container {
+    border: 1px solid red;
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#main-banner {
+    background: url('../css/images/Folkestone_Sign.png') no-repeat center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: contain;
 }
 
 
