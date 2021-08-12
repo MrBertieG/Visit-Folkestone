@@ -8,11 +8,6 @@ body {
     background-color:rgb(211,211,211);
 }
 
-nav, ul {
-    list-style-type: none;
-    margin-right: 30px;
-}
-
 /* Page Logo */
 #logo {
     font-size: 200%;
@@ -25,6 +20,7 @@ header a {
     color: inherit;
 }
 
+/* navigation bar*/
 #navigation {
     font-size: 110%;
     float: right;
@@ -39,9 +35,13 @@ nav, li {
     display: inline;
 }
 
+nav, ul {
+    list-style-type: none;
+    text-align: center;
+}
+
 /*main banner */
 #main-banner-container {
-    border: 1px solid red;
     height: 200px;
     width: 100%;
     overflow: hidden;
@@ -59,7 +59,16 @@ nav, li {
     background-size: contain;
 }
 
+/* list section */
+#list {
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
 
+    position: relative;
+
+    text-align: center;
+}
 
 
 
