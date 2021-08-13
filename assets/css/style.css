@@ -62,10 +62,16 @@ header a {
 }
 li {
     display: inline-block;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    color: #ffffff;
+    background-color: #a9bdd8;
 }
 
 ul {
     list-style-type: none;
+    
 }
 #nav-home {
     margin-left: 20px;
