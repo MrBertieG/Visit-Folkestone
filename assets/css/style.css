@@ -11,6 +11,13 @@
 @media only screen and (max-width: 600px) {
   
 /* Page Logo */
+#picture-logo-container {
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
 #picture-logo {
     background-image: url('../css/images/Lighthouse\ Logo.png');
     background-repeat: no-repeat;
@@ -18,12 +25,8 @@
     text-indent: -1000px;
     height: 100px;
     width: 100px;
-    position: relative;
-    top: 0;
-    right: 0;
-    bottom: 2px;
-    left: 38%;
     border-radius: 50%;
+    position: inherit;
     
 
 }
