@@ -60,14 +60,16 @@ header a {
     text-decoration: none;
     color: inherit;
 }
-nav, li {
+li {
     display: inline-block;
 }
 
-nav, ul {
+ul {
     list-style-type: none;
 }
-
+#nav-home {
+    margin-left: 20px;
+}
 #nav-contact {
     
 }
@@ -78,7 +80,7 @@ nav, ul {
 
 /*main banner */
 #main-banner-container {
-    height: 300px;
+    height: 250px;
     width: 100%;
     overflow: hidden;
 
