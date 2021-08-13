@@ -27,7 +27,7 @@ body {
     position: absolute;
     top: 50px;
     left: 50%;
-    transform: translate(-190px, -70%);
+    transform: translate(-186px, -55%);
 }
 
 #logo {
@@ -76,13 +76,6 @@ ul {
 #nav-home {
     margin-left: 20px;
 }
-#nav-contact {
-    
-}
-
-#section1 {
-    margin-top: 20px;
-}
 
 /*main banner */
 #main-banner-container {
@@ -104,7 +97,6 @@ ul {
     right: 0;
     bottom: 0;
     text-indent: -1000px;
-    
 }
 
 /* list section */
@@ -116,6 +108,17 @@ ul {
     position: relative;
 
     text-align: center;
+}
+
+/*List Section*/
+
+#landmarks {
+    background-image: url('../css/images/Folkestone\ Harbout\ Landscape.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px;
+
+    float: left;
 }
 
 }
