@@ -5,6 +5,9 @@
     padding: 0;
     border: none;
 }
+body {
+    background-color: #f7f7f7;
+}
 
 /* Mobile screen size */
 
@@ -26,16 +29,20 @@
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    position: inherit;
-    
 
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
 #logo {
     font-size: 200%;
     position: relati;
 }
 header {
     text-align: center;
+    margin-top: 100px;
 }
 
 header a {
@@ -63,6 +70,10 @@ nav, li {
 
 nav, ul {
     list-style-type: none;
+}
+
+#section1 {
+    margin-top: 20px;
 }
 
 /*main banner */
