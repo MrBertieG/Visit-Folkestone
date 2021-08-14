@@ -97,16 +97,10 @@ ul {
     text-indent: -1000px;
 }
 
-/* list section */
-#list {
-
-}
-
-/*List Section*/
-
 #landmarks-container {
     width: 100%;
     height: 150px;
+    padding-top: 4px;
 
     overflow: hidden;
     position: relative;
@@ -114,8 +108,8 @@ ul {
 }
 
 #landmarks-photo {
-    background: url('../css/images/Folkestone\ Harbour\ Landmark.png') no-repeat center center;
-    width: 147%;
+    background: url('../css/images/Harbour\ Arm.jpg') no-repeat center center;
+    background-size: 120%;
     height: 100%;
 }
 
@@ -131,6 +125,7 @@ ul {
 #eat-local-container {
     width: 100%;
     height: 150px;
+    padding-top: 4px;
 
     overflow: hidden;
     position: relative;
@@ -139,7 +134,7 @@ ul {
 
 #food-stand-1 {
     background: url('../css/images/Eat\ Local.jpg') no-repeat center center;
-    width: 100%;
+    background-size: 120%;
     height: 200px;
 }
 
@@ -148,7 +143,7 @@ ul {
     color: #ffffff;
     position: relative;
     top: 56%;
-    left: 28%;
+    left: 16%;
     font-size: 200%;
     text-transform: uppercase;
 }
@@ -156,6 +151,7 @@ ul {
 #book-a-stay-container {
     width: 100%;
     height: 150px;
+    padding-top: 4px;
 
     overflow: hidden;
     position: relative;
@@ -164,7 +160,7 @@ ul {
 
 #book-a-stay-photo {
     background: url('../css/images/Imperial\ Hotel.jpg') no-repeat center center;
-    width: 100%;
+    background-size: 120%;
     height: 200px;
 }
 
@@ -173,7 +169,33 @@ ul {
     color: #ffffff;
     position: relative;
     top: 56%;
-    left: 28%;
+    left: 16%;
+    font-size: 200%;
+    text-transform: uppercase;
+}
+
+#find-parking-container {
+    width: 100%;
+    height: 150px;
+    padding-top: 4px;
+
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+
+#find-parking-photo {
+    background: url('../css/images/Find\ Parking.jpg') no-repeat center center;
+    background-size: 120%;
+    height: 151px;
+}
+
+#find-parking-photo h2 {
+    font-family: Oxygen, sans-serif;
+    color: #ffffff;
+    position: relative;
+    top: 75%;
+    left: 16%;
     font-size: 200%;
     text-transform: uppercase;
 }
