@@ -236,13 +236,17 @@ i {
     font-family: Oxygen, sans-serif;
     padding-top: 13%;
 }
-#photos {
+p {
+    font-size: 80%;
+    font-family: Oxygen, sans-serif;
+}
+#beach-photos {
     clear: both;
     line-height: 0;
     column-count: 2;
     column-gap: 1px ;
 }
-#photos > img {
+#beach-photos > img {
     width: 100%;
     padding-top: 2px;
 }
