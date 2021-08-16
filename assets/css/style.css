@@ -200,6 +200,11 @@ ul {
     text-transform: uppercase;
 }
 
+hr {
+    border-bottom: solid 2px #a9bdd8;
+    padding-top: 4px;
+}
+
 }
 
 
