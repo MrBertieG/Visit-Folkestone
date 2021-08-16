@@ -231,15 +231,20 @@ i {
 }
 
 /* Town Tour Page */
-
+#beach-title {
+    font-size: 100%;
+    font-family: Oxygen, sans-serif;
+    padding-top: 13%;
+}
 #photos {
     clear: both;
     line-height: 0;
     column-count: 2;
-    column-gap: 0;
+    column-gap: 1px ;
 }
 #photos > img {
     width: 100%;
+    padding-top: 2px;
 }
 }
 
