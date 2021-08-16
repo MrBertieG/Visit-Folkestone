@@ -233,7 +233,9 @@ i {
 /* Town Tour Page */
 
 #photos {
-    
+    clear: both;
+    line-height: 0;
+    column-count: 2;
 }
 }
 
