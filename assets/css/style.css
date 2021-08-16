@@ -16,7 +16,7 @@ body {
 /* Page Logo */
 }
 #picture-logo {
-    background-image: url('../css/images/Lighthouse\ Logo.png');
+    background-image: url('../css/images/home_images/Lighthouse\ Logo.png');
     background-repeat: no-repeat;
     background-size: 100%;
     text-indent: -1000px;
@@ -55,8 +55,8 @@ header a {
 /* Navigation Bar*/
 
 .active {
-    background-color: #ffffff;
-    color: #a9bdd8;
+    border: 1px solid;
+    border-color: #ffffff;
 }
 
 #navigation {
@@ -94,7 +94,7 @@ ul {
 }
 
 #main-banner {
-    background: url('../css/images/Harbour\ with\ boats.jpg') no-repeat center center;
+    background: url('../css/images/home_images/Harbour\ with\ boats.jpg') no-repeat center center;
     background-size: 100%;
     width: 150%;
     
@@ -117,7 +117,7 @@ ul {
 }
 
 #landmarks-photo {
-    background: url('../css/images/Harbour\ Arm.jpg') no-repeat center center;
+    background: url('../css/images/home_images/Harbour\ Arm.jpg') no-repeat center center;
     background-size: 120%;
     height: 100%;
 }
@@ -142,7 +142,7 @@ ul {
 }
 
 #food-stand-1 {
-    background: url('../css/images/Eat\ Local.jpg') no-repeat center center;
+    background: url('../css/images/home_images/Eat\ Local.jpg') no-repeat center center;
     background-size: 120%;
     height: 200px;
 }
@@ -168,7 +168,7 @@ ul {
 }
 
 #book-a-stay-photo {
-    background: url('../css/images/Imperial\ Hotel.jpg') no-repeat center center;
+    background: url('../css/images/home_images/Imperial\ Hotel.jpg') no-repeat center center;
     background-size: 120%;
     height: 200px;
 }
@@ -195,7 +195,7 @@ ul {
 }
 
 #find-parking-photo {
-    background: url('../css/images/Find\ Parking.jpg') no-repeat center center;
+    background: url('../css/images/home_images/Find\ Parking.jpg') no-repeat center center;
     background-size: 120%;
     height: 151px;
 }
@@ -228,6 +228,12 @@ footer {
 i {
     padding: 10px 20px 10px 20px;
     font-size: 155%;
+}
+
+/* Town Tour Page */
+
+#photos {
+    
 }
 }
 
