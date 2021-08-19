@@ -228,9 +228,6 @@ hr {
 footer {
     text-align: center;
     width: 100%;
-}
-
-footer a {
     color: #7babebf1;
 }
 
@@ -259,7 +256,7 @@ i {
 #high-street-title {
     font-size: 120%;
     font-family: Oxygen, sans-serif;
-    padding-top: 13%;
+    padding-top: 0;
     padding-left: 2px;
     border-bottom: 2px solid black;
 }
@@ -268,7 +265,7 @@ p {
     font-size: 80%;
     font-family: fira sans, sans-serif;
 }
-#section1 >img {
+.section1 >img {
     width: 100%;
 }
 
@@ -277,7 +274,7 @@ p {
     line-height: 1;
     column-count: 2;
     column-gap: 1px ;
-    height: 463px;
+    height: auto;
 }
 
 .column-photos > img {
