@@ -264,7 +264,7 @@ p {
     width: 100%;
 }
 
-#column-photos {
+.column-photos {
     clear: both;
     line-height: 1;
     column-count: 2;
@@ -272,7 +272,7 @@ p {
     height: 463px;
 }
 
-#column-photos > img {
+.column-photos > img {
     width: 100%;
     padding-top: 22px;
 }
