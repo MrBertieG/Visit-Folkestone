@@ -256,6 +256,14 @@ i {
     border-bottom: 2px solid black;
 }
 
+#high-street-title {
+    font-size: 120%;
+    font-family: Oxygen, sans-serif;
+    padding-top: 13%;
+    padding-left: 2px;
+    border-bottom: 2px solid black;
+}
+
 p {
     font-size: 80%;
     font-family: fira sans, sans-serif;
