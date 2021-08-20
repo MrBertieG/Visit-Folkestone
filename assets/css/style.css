@@ -114,6 +114,20 @@ ul {
     right: 0;
     bottom: 0;
     text-indent: -1000px;
+
+    animation-name: banner-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* zoom efect main banner */
+@keyframes banner-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
 }
 
 #landmarks-container {
