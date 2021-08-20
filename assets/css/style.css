@@ -15,6 +15,14 @@ body {
   
 /* Page Logo */
 
+#intro {
+    font-family: fira sans, sans-serif;
+    background-color: rgba(123, 171, 235, 0.8);
+    color: #ffffff;
+
+    padding: 2px;
+}
+
 #picture-logo {
     background-image: url('../css/images/home_images/Lighthouse\ Logo.png');
     background-repeat: no-repeat;
@@ -132,7 +140,6 @@ ul {
     width: 100%;
     padding-left: 16%;
     background-color: rgba(123, 171, 235, 0.8);
-    margin-bottom: 3px;
     font-size: 200%;
     text-transform: uppercase;
 }
@@ -160,7 +167,6 @@ ul {
     width: 100%;
     padding-left: 16%;
     background-color: rgba(123, 171, 235, 0.8);
-    margin-bottom: 3px;
     font-size: 200%;
     text-transform: uppercase;
 }
@@ -189,7 +195,6 @@ ul {
     width: 100%;
     padding-left: 16%;
     background-color: rgba(123, 171, 235, 0.8);
-    margin-bottom: 3px;
     font-size: 200%;
     text-transform: uppercase;
 }
@@ -220,7 +225,7 @@ ul {
     width: 100%;
     padding-left: 16%;
     background-color: rgba(123, 171, 235, 0.8);
-    margin-bottom: 3px;
+
 
     font-size: 200%;
     text-transform: uppercase;
