@@ -12,7 +12,7 @@ body {
 
 /* Mobile screen size */
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 380px) {
   
 /* Page Logo */
 
@@ -338,6 +338,22 @@ p {
 
 #column-photos2 > a > img {
     width: 100%;
+}
+
+#column-photos2 > div {
+    margin-top: 13px;
+    border: 2px solid rgba(123, 171, 235);
+    height: 65px;
+    background-color: rgba(123, 171, 235);
+    color: #ffffff;
+    line-height: 17px;
+}
+
+#column-photos2 > div > p > a {
+    color: #ffffff;
+    font-size: 109%;
+    font-style: italic;
+    letter-spacing: 1px;
 }
 
 #column-photos3 > a > img {
