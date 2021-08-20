@@ -431,3 +431,424 @@ span {
 
 }
 
+/* Tablet screen size */
+
+@media only screen and (max-width: 800px) {
+  
+    /* Page Logo */
+    
+    #intro {
+        font-family: fira sans, sans-serif;
+        background-color: rgba(123, 171, 235, 0.8);
+        color: #ffffff;
+    
+        padding: 2px;
+    }
+    
+    #picture-logo {
+        background-image: url('../css/images/home_images/Lighthouse\ Logo.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        text-indent: -1000px;
+    
+        height: 94px;
+        width: 70px;
+        border-radius: 50%;
+        position: absolute;
+        top: 50px;
+        left: 50%;
+        transform: translate(-186px, -55%);
+    }
+    
+    #logo {
+        font-family: Oxygen, sans-serif;
+        font-size: 200%;
+        margin-top: 20px;
+    
+        width: 64%;
+    
+        position: relative;
+        left: 18%;
+    }
+    
+    header {
+        text-align: center;
+        position: relative;
+        height: 40px;
+    }
+    
+    header a {
+        text-decoration: none;
+        color: inherit;
+        font-family: Fira Sans, sans-serif;
+    }
+    
+    /* Navigation Bar*/
+    
+    .active {
+        border-bottom: 3px solid;
+        border-color: #ffffff;
+    }
+    
+    #navigation {
+        font-size: 98%;
+        float: right;
+        list-style-type: none;
+        width: 100%;
+    }
+    
+    #navigation a {
+        text-decoration: none;
+        color: inherit;
+        text-transform: uppercase;
+    }
+    li {
+        display: inline-block;
+        margin: 0;
+        padding: 5px;
+        overflow: hidden;
+        color: #ffffff;
+        background-color: #a9bdd8;
+    }
+    
+    ul {
+        list-style-type: none;
+        border-bottom: 2px solid black;
+        padding-bottom: 12px;
+    }
+    
+    /*main banner */
+    #main-banner-container {
+        height: 250px;
+        width: 100%;
+        overflow: hidden;
+    
+        position: relative;
+    }
+    
+    #main-banner {
+        background: url('../css/images/home_images/Harbour\ with\ boats.jpg') no-repeat center center;
+        background-size: 100%;
+        width: 144%;
+        
+        position: absolute;
+        top: -6px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        text-indent: -1000px;
+    
+        animation-name: banner-zoom;
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
+    }
+    
+    /* zoom efect main banner */
+    
+    @keyframes banner-zoom {
+        from {
+            transform: scale(1);
+        }
+        to {
+            transform: scale(1.1);
+        }
+    }
+    
+    
+    #landmarks-container {
+        width: 100%;
+        height: 150px;
+        padding-top: 4px;
+    
+        overflow: hidden;
+    }
+    
+    #landmarks-photo {
+        background: url('../css/images/home_images/Harbour\ Arm.jpg') no-repeat center center;
+        background-size: 120%;
+        height: 100%;
+    }
+    
+    #landmarks-photo h2 {
+        font-family: Oxygen, sans-serif;
+        color: #ffffff;
+        position: relative;
+        top: 76%;
+        width: 100%;
+        padding-left: 16%;
+        background-color: rgba(123, 171, 235, 0.8);
+        font-size: 200%;
+        text-transform: uppercase;
+    }
+    #eat-local-container {
+        width: 100%;
+        height: 150px;
+        padding-top: 3px;
+    
+        overflow: hidden;
+    }
+    
+    #food-stand-1 {
+        background: url('../css/images/home_images/Eat\ Local.jpg') no-repeat center center;
+        background-size: 120%;
+        height: 200px;
+    }
+    
+    #eat-local-container h2 {
+        font-family: Oxygen, sans-serif;
+        color: #ffffff;
+        position: relative;
+        top: 57%;
+        width: 100%;
+        padding-left: 16%;
+        background-color: rgba(123, 171, 235, 0.8);
+        font-size: 200%;
+        text-transform: uppercase;
+    }
+    
+    #book-a-stay-container {
+        width: 100%;
+        height: 150px;
+        padding-top: 4px;
+    
+        overflow: hidden;
+    }
+    
+    #book-a-stay-photo {
+        background: url('../css/images/home_images/Imperial\ Hotel.jpg') no-repeat center center;
+        background-size: 120%;
+        height: 200px;
+    }
+    
+    #book-a-stay-photo h2 {
+        font-family: Oxygen, sans-serif;
+        color: #ffffff;
+        position: relative;
+        top: 57%;
+        width: 100%;
+        padding-left: 16%;
+        background-color: rgba(123, 171, 235, 0.8);
+        font-size: 200%;
+        text-transform: uppercase;
+    }
+    
+    #find-parking-container {
+        width: 100%;
+        height: 150px;
+        padding-top: 4px;
+        padding-bottom: 2px;
+    
+        overflow: hidden;
+    }
+    
+    #find-parking-photo {
+        background: url('../css/images/home_images/Find\ Parking.jpg') no-repeat center center;
+        background-size: 120%;
+        height: 151px;
+    }
+    
+    #find-parking-photo h2 {
+        font-family: Oxygen, sans-serif;
+        color: #ffffff;
+        position: relative;
+        top: 76%;
+        
+        width: 100%;
+        padding-left: 16%;
+        background-color: rgba(123, 171, 235, 0.8);
+    
+    
+        font-size: 200%;
+        text-transform: uppercase;
+    }
+    
+    hr {
+        border: 0;
+        clear:both;
+        display:block;
+        width: 100%;               
+        background-color:black;
+        height: 1px;
+    }
+    
+    /* Footer */
+    
+    footer {
+        text-align: center;
+        width: 100%;
+        border-top: 2px solid black;
+    }
+    
+    footer a {
+        color: #7babebf1;
+    }
+    
+    i {
+        padding: 10px 20px 10px 20px;
+        font-size: 155%;
+    }
+    
+    /* Town Tour Page */
+    #beach-title {
+        display: block;
+    }
+    
+    #beach-title h1 {
+        font-size: 400%;
+        font-family: Oxygen, sans-serif;
+        padding-top: 20%;
+        padding-left: 2px;
+        border-bottom: 2px solid black;
+    }
+    
+    #beach-title > p {
+        font-family: fira sans, sans-serif;
+    }
+    
+    #harbour-title {
+        font-size: 400%;
+        font-family: Oxygen, sans-serif;
+        padding-top: 20%;
+        padding-left: 2px;
+        border-bottom: 2px solid black;
+    }
+    
+    #high-street-title {
+        font-size: 400%;
+        font-family: Oxygen, sans-serif;
+        padding-top: 20%;
+        padding-left: 2px;
+        border-bottom: 2px solid black;
+    }
+    
+    p {
+        font-size: 80%;
+        font-family: fira sans, sans-serif;
+    }
+    .section1 > a > img {
+        width: 100%;
+    }
+    
+    #column-photos1 {
+        clear: both;
+        line-height: 1;
+        column-count: 2;
+        column-gap: 1px ;
+        height: auto;
+    }
+    
+    #column-photos2 {
+        clear: both;
+        line-height: 1;
+        column-count: 2;
+        column-gap: 1px ;
+        height: auto;
+    }
+    
+    #column-photos3 {
+        clear: both;
+        line-height: 1;
+        column-count: 2;
+        column-gap: 1px ;
+        height: 610px;
+    }
+    
+    #column-photos1 > a > img {
+        width: 100%;
+    }
+    
+    #column-photos2 > a > img {
+        width: 100%;
+    }
+    
+    #column-photos2 > div {
+        margin-top: 13px;
+        border: 2px solid rgba(123, 171, 235);
+        height: 65px;
+        background-color: rgba(123, 171, 235);
+        color: #ffffff;
+        line-height: 17px;
+    }
+    
+    #column-photos2 > div > p > a {
+        color: #ffffff;
+        font-size: 109%;
+        font-style: italic;
+        letter-spacing: 1px;
+    }
+    
+    #column-photos3 > a > img {
+        width: 100%;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+        font-family: fira sans, sans-serif;
+        font-size: 90%;
+    }
+    
+    /* Contact Page */
+    
+    #contact {
+        height: 550px;
+    }
+    
+    iframe {
+        width: 100%;
+        height: 300px;
+    }
+    
+    form {
+        font-size: 100%;
+        width: 100%;
+        padding-top: 22%;
+    }
+    
+    legend {
+        font-size: 125%;
+        font-family: fira sans, sans-serif;
+        float: left;
+    }
+    
+    input {
+        border: 1px solid black;
+        width: 79%;
+        margin-top: 4px;
+        font-family: fira sans, sans-serif;
+    }
+    
+    #button {
+        width: 72%;
+        position: relative;
+        left: 10%;
+    }
+    
+    fieldset {
+        width: 90%;
+        position: relative;
+        left: 10%;
+        margin: 5px 0 0 0;
+    }
+    textarea {
+        border: 1px solid black;
+        width: 79%;
+    }
+    
+    #contact-us {
+        width: 100%;
+        height: 147px;
+        text-align: center;
+        font-family: fira sans, sans-serif;
+    
+    }
+    
+    span {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    
+    }
+    
