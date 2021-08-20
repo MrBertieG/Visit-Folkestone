@@ -12,10 +12,6 @@ body {
 /* Mobile screen size */
 
 @media only screen and (max-width: 700px) {
-
-    html {
-        width: 100%;
-    }
   
 /* Page Logo */
 
@@ -59,7 +55,7 @@ header a {
 /* Navigation Bar*/
 
 .active {
-    border: 1px solid;
+    border-bottom: 3px solid;
     border-color: #ffffff;
 }
 
@@ -86,6 +82,8 @@ li {
 
 ul {
     list-style-type: none;
+    border-bottom: 2px solid black;
+    padding-bottom: 12px;
 }
 
 /*main banner */
@@ -131,7 +129,10 @@ ul {
     color: #ffffff;
     position: relative;
     top: 76%;
-    left: 16%;
+    width: 100%;
+    padding-left: 16%;
+    background-color: rgba(123, 171, 235, 0.8);
+    margin-bottom: 3px;
     font-size: 200%;
     text-transform: uppercase;
 }
@@ -156,7 +157,10 @@ ul {
     color: #ffffff;
     position: relative;
     top: 56%;
-    left: 16%;
+    width: 100%;
+    padding-left: 16%;
+    background-color: rgba(123, 171, 235, 0.8);
+    margin-bottom: 3px;
     font-size: 200%;
     text-transform: uppercase;
 }
@@ -182,7 +186,10 @@ ul {
     color: #ffffff;
     position: relative;
     top: 56%;
-    left: 16%;
+    width: 100%;
+    padding-left: 16%;
+    background-color: rgba(123, 171, 235, 0.8);
+    margin-bottom: 3px;
     font-size: 200%;
     text-transform: uppercase;
 }
@@ -209,7 +216,12 @@ ul {
     color: #ffffff;
     position: relative;
     top: 75%;
-    left: 16%;
+    
+    width: 100%;
+    padding-left: 16%;
+    background-color: rgba(123, 171, 235, 0.8);
+    margin-bottom: 3px;
+
     font-size: 200%;
     text-transform: uppercase;
 }
@@ -228,6 +240,11 @@ hr {
 footer {
     text-align: center;
     width: 100%;
+    border-top: 2px solid black;
+    margin-top: 5px;
+}
+
+footer a {
     color: #7babebf1;
 }
 
@@ -240,7 +257,7 @@ i {
 #beach-title {
     font-size: 120%;
     font-family: Oxygen, sans-serif;
-    padding-top: 13%;
+    padding-top: 20%;
     padding-left: 2px;
     border-bottom: 2px solid black;
 }
@@ -248,7 +265,7 @@ i {
 #harbour-title {
     font-size: 120%;
     font-family: Oxygen, sans-serif;
-    padding-top: 13%;
+    padding-top: 20%;
     padding-left: 2px;
     border-bottom: 2px solid black;
 }
@@ -256,7 +273,7 @@ i {
 #high-street-title {
     font-size: 120%;
     font-family: Oxygen, sans-serif;
-    padding-top: 0;
+    padding-top: 20%;
     padding-left: 2px;
     border-bottom: 2px solid black;
 }
@@ -269,7 +286,7 @@ p {
     width: 100%;
 }
 
-.column-photos {
+#column-photos1 {
     clear: both;
     line-height: 1;
     column-count: 2;
@@ -277,9 +294,32 @@ p {
     height: auto;
 }
 
-.column-photos > img {
+#column-photos2 {
+    clear: both;
+    line-height: 1;
+    column-count: 2;
+    column-gap: 1px ;
+    height: auto;
+}
+
+#column-photos3 {
+    clear: both;
+    line-height: 1;
+    column-count: 2;
+    column-gap: 1px ;
+    height: 610px;
+}
+
+#column-photos1 > img {
     width: 100%;
-    padding-top: 22px;
+}
+
+#column-photos2 > img {
+    width: 100%;
+}
+
+#column-photos3 > img {
+    width: 100%;
 }
 
 a {
@@ -353,37 +393,3 @@ span {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* medium size screen 
-@media screen and (min-width: 600px) {
-    #logo {
-        font-size: 200%;
-        margin-left: 25%;
-}
-}
-*/
-/* large screen 
-@media screen and (min-width: 1200px) {
-    #logo {
-        font-size: 200%;
-        margin-left: 50%;
-}
-}
-*/
