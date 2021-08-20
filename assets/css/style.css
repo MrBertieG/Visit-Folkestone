@@ -7,6 +7,7 @@
 }
 body {
     background-color: #ffffff;
+    height: 100%;
 }
 
 /* Mobile screen size */
@@ -39,6 +40,7 @@ body {
 }
 
 #logo {
+    font-family: Oxygen, sans-serif;
     font-size: 200%;
     margin-top: 20px;
 
@@ -106,10 +108,10 @@ ul {
 #main-banner {
     background: url('../css/images/home_images/Harbour\ with\ boats.jpg') no-repeat center center;
     background-size: 100%;
-    width: 150%;
+    width: 144%;
     
     position: absolute;
-    top: 4px;
+    top: -6px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -121,6 +123,7 @@ ul {
 }
 
 /* zoom efect main banner */
+
 @keyframes banner-zoom {
     from {
         transform: scale(1);
@@ -130,14 +133,13 @@ ul {
     }
 }
 
+
 #landmarks-container {
     width: 100%;
     height: 150px;
     padding-top: 4px;
 
     overflow: hidden;
-    position: relative;
-    float: left;
 }
 
 #landmarks-photo {
@@ -163,8 +165,6 @@ ul {
     padding-top: 3px;
 
     overflow: hidden;
-    position: relative;
-    float: left;
 }
 
 #food-stand-1 {
@@ -177,7 +177,7 @@ ul {
     font-family: Oxygen, sans-serif;
     color: #ffffff;
     position: relative;
-    top: 56%;
+    top: 57%;
     width: 100%;
     padding-left: 16%;
     background-color: rgba(123, 171, 235, 0.8);
@@ -191,8 +191,6 @@ ul {
     padding-top: 4px;
 
     overflow: hidden;
-    position: relative;
-    float: left;
 }
 
 #book-a-stay-photo {
@@ -205,7 +203,7 @@ ul {
     font-family: Oxygen, sans-serif;
     color: #ffffff;
     position: relative;
-    top: 56%;
+    top: 57%;
     width: 100%;
     padding-left: 16%;
     background-color: rgba(123, 171, 235, 0.8);
@@ -220,8 +218,6 @@ ul {
     padding-bottom: 2px;
 
     overflow: hidden;
-    position: relative;
-    float: left;
 }
 
 #find-parking-photo {
@@ -234,7 +230,7 @@ ul {
     font-family: Oxygen, sans-serif;
     color: #ffffff;
     position: relative;
-    top: 75%;
+    top: 76%;
     
     width: 100%;
     padding-left: 16%;
@@ -260,7 +256,6 @@ footer {
     text-align: center;
     width: 100%;
     border-top: 2px solid black;
-    margin-top: 5px;
 }
 
 footer a {
@@ -274,11 +269,19 @@ i {
 
 /* Town Tour Page */
 #beach-title {
-    font-size: 120%;
+    display: block;
+}
+
+#beach-title h1 {
+    font-size: 150%;
     font-family: Oxygen, sans-serif;
     padding-top: 20%;
     padding-left: 2px;
     border-bottom: 2px solid black;
+}
+
+#beach-title > p {
+    font-family: fira sans, sans-serif;
 }
 
 #harbour-title {
@@ -301,7 +304,7 @@ p {
     font-size: 80%;
     font-family: fira sans, sans-serif;
 }
-.section1 >img {
+.section1 > a > img {
     width: 100%;
 }
 
@@ -329,15 +332,15 @@ p {
     height: 610px;
 }
 
-#column-photos1 > img {
+#column-photos1 > a > img {
     width: 100%;
 }
 
-#column-photos2 > img {
+#column-photos2 > a > img {
     width: 100%;
 }
 
-#column-photos3 > img {
+#column-photos3 > a > img {
     width: 100%;
 }
 
