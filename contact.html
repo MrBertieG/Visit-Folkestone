@@ -33,9 +33,11 @@
     </header>
 
     <!--Page Sections-->
+
+    <div id="goodbye"></div>
         
     <section id="contact">
-        <form>
+        <form action="https://formdump.codeinstitute.net/" method="post">
             <fieldset>
                 <legend>Tell us about your stay!</legend>
                 <input type="text" name="fname" id="fname" placeholder="Full Name" required><br>
@@ -46,7 +48,10 @@
                 <textarea name="first" id="first" placeholder="Message:" rows="10" cols="40"></textarea>
                 <br>
             </fieldset>
-            <input type="submit" value="Leave Feedback" id="button">
+            <div id="outer">
+                <div class="inner"><button type="submit">Leave Feedback!</div>
+                <div class="inner"><button type="reset" >Clear Message</div>
+            </div>
         </form>
 
         <div id="contact-us">
