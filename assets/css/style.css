@@ -46,16 +46,14 @@ body {
     font-size: 200%;
     margin-top: 20px;
 
-    width: 64%;
+    width: auto;
 
-    position: relative;
-    left: 18%;
+    margin: 0 auto;
 }
 
 header {
     text-align: center;
-    position: relative;
-    height: 40px;
+
 }
 
 header a {
@@ -243,14 +241,6 @@ ul {
     text-transform: uppercase;
 }
 
-hr {
-    border: 0;
-    clear:both;
-    display:block;
-    width: 100%;               
-    background-color:black;
-    height: 1px;
-}
 
 /* Footer */
 
@@ -378,7 +368,7 @@ p {
     line-height: 17px;
 }
 
-#column-photos2 > div > p > a {
+.description > p > a {
     color: #ffffff;
     font-size: 109%;
     font-style: italic;
@@ -387,6 +377,10 @@ p {
 
 #column-photos3 > a > img {
     width: 100%;
+    padding-top: 20px;
+}
+
+#img-container {
     padding-top: 20px;
 }
 
@@ -405,7 +399,8 @@ a {
 #empty p {
     font-family: fira sans, sans-serif;
     line-height: 35px;
-    padding-top: 59px;
+    margin-top: 60%;
+    padding: 6px;
 }
 /*
 #overlay {
@@ -552,9 +547,90 @@ span {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 381px) {
 
+    /* Landing Page */
+
+    #intro {
+        font-size: 100%;
+    }
+
+    header a {
+        font-size: 100%;
+    }
+    
+    /* Town Tour Page */
+
     #beach-title h1 {
-        font-size: 300%;
+        font-size: 200%;
+    }
+
+    #beach-title > p {
+        font-size: 105%;
+    }
+
+    #harbour-title h1 {
+        font-size: 200%;
+    }
+
+    #harbour-title > p {
+        font-size: 105%;
+    }
+
+    #high-street-title h1 {
+        font-size: 200%;
+    }
+
+    #high-street-title  > p {
+        font-size: 105%;
+    }
+
+    p {
+        font-size: 105%;
+    }
+    
+    .description {
+        font-size: 100%;
+    }
+
+    a {
+        font-size: 100%;
+    }
+
+    #empty p{
+        line-height: 60px;
+        margin-top: 60%;
+    }
+
+    /*Contact Page */
+
+    #contact-us {
+        margin: 30% auto;
+    }
+
+    /* Footer */
+
+    footer i {
+        font-size: 200%;
     }
 }
