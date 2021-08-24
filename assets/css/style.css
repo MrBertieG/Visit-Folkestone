@@ -10,7 +10,6 @@ html {
     width: 100%;
 }
 body {
-    background-color: #ffffff;
     height: 100%;
 }
 
@@ -53,7 +52,6 @@ body {
 
 header {
     text-align: center;
-
 }
 
 header a {
@@ -68,11 +66,6 @@ header a {
     border-bottom: 3px solid #ffffff;
 }
 
-a:hover {
-    background-color: white;
-    color: black;
-}
-
 #navigation {
     font-size: 98%;
     float: right;
@@ -82,13 +75,11 @@ a:hover {
 
 #navigation a {
     text-decoration: none;
-    color: inherit;
     text-transform: uppercase;
 }
+
 li {
     display: inline-block;
-    margin: 0;
-    padding: 5px;
     overflow: hidden;
     color: #ffffff;
     background-color: #a9bdd8;
@@ -96,6 +87,11 @@ li {
 
 ul {
     list-style-type: none;
+}
+
+li:hover {
+    background-color: white;
+    color: #a9bdd8;
 }
 
 /*main banner */
@@ -646,6 +642,24 @@ header a {
     font-size: 300%;
 }
 
+#picture-logo {
+    background-image: url(../css/images/home_images/Lighthouse\ Logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-indent: -1000px;
+    height: 188px;
+    width: 140px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    left: 21%;
+    transform: translate(-186px, -55%);
+}
+
+#logo {
+    margin: 3% 0 auto;
+}
+
 ul {
     float: right;
 }
@@ -656,6 +670,8 @@ li {
     padding: 5px 15px 5px 15px;
 }
 
-
+#navigation {
+    margin-top: 4%;
+}
 
 }
