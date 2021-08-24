@@ -691,7 +691,7 @@ span {
     /* Landing Page */
 
 html {
-
+    width: 70%;
     margin: 5% auto;
 }
 
@@ -715,7 +715,7 @@ header a {
     float: left;
     top: 119px;
     left: 13%;
-    font-size: 200%;
+    font-size: 170%;
 }
 
 ul {
