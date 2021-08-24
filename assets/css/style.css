@@ -478,6 +478,7 @@ a {
     width: 100%;
     height: 200px;
     margin-top: 10%;
+    border-top: 2px solid black;
 }
 
 #contact {
@@ -489,6 +490,7 @@ a {
 iframe {
     width: 100%;
     height: 300px;
+    margin-bottom: -4px;
 }
 
 form {
@@ -705,14 +707,14 @@ header a {
         height: 206.8px;
         width: 154px;
         top: 400px;
-        left: 286px;
+        left: 236px;
     }
 
 #logo {
     position: relative;
     float: left;
     top: 119px;
-    left: 17%;
+    left: 13%;
     font-size: 200%;
 }
 
@@ -844,11 +846,11 @@ p {
 }
 
 #high-street-title  > p {
-    font-size: 105%;
+    font-size: 80%;
 }
 
 p {
-    font-size: 80%;
+    font-size: 140%;
     padding-top: 5px;
     padding-bottom: 5px;
     line-height: 30px;
@@ -863,6 +865,10 @@ p {
 
 .description {
     font-size: 100%;
+    width: 70%;
+    margin-top: 2%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 a {
@@ -885,6 +891,19 @@ a {
 footer i {
     font-size: 200%;
 }
+
+/*Contact Page */
+
+#goodbye {
+    margin-top: 20%;
+    height: 400px;
+}
+
+#contact {
+    width: 50%;
+
+    margin-right: auto;
+    margin-left: auto;
 }
 
 }
