@@ -48,12 +48,14 @@ section {
 
 #logo {
     font-family: Oxygen, sans-serif;
-    font-size: 200%;
+    font-size: 117%;
     margin-top: 20px;
 
     width: auto;
 
     margin: 0 auto;
+
+    color: #b6b6b6;
 }
 
 header {
@@ -313,7 +315,7 @@ i {
 }
 
 #high-street-title  > p {
-    ont-family: fira sans, sans-serif;
+    font-family: fira sans, sans-serif;
 
     margin-bottom: 2px;
     padding: 1px;
@@ -571,12 +573,25 @@ span {
 
 
 
-@media screen and (min-width: 381px) {
+@media screen and (min-width: 906px) {
 
     /* Landing Page */
 
     #picture-logo {
-        height: 89px;
+        height: 188px;
+        width: 140px;
+        top: 266px;
+        left: 32%;
+
+    }
+
+    #logo {
+        font-size: 250%;
+    }
+
+    #navigation {
+        font-size: 180%;
+
     }
 
     #intro {
@@ -647,13 +662,39 @@ span {
     }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Desktop Screen Size*/
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
     
     /* Landing Page */
 
+html {
+
+    margin: 5% auto;
+}
+
 header {
-    margin-top: -16%;
+    margin-top: -22%;
 }
 
 header a {
@@ -663,8 +704,8 @@ header a {
 #picture-logo {
         height: 206.8px;
         width: 154px;
-        top: 359px;
-        left: 216px;
+        top: 400px;
+        left: 286px;
     }
 
 #logo {
@@ -672,6 +713,7 @@ header a {
     float: left;
     top: 119px;
     left: 17%;
+    font-size: 200%;
 }
 
 ul {
@@ -686,6 +728,163 @@ li {
 
 #navigation {
     margin-top: 4%;
+    font-size: 100%;
+}
+
+/* main banner */
+
+#main-banner-container {
+    height: 600px;
+}
+
+#main-banner {
+    height: 600px;
+}
+
+p {
+    font-size: 213%;
+    text-align: center;
+}
+
+#intro {
+    width: 70%;
+    margin-top: 3%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#landmarks-container {
+    width: 70%;
+    margin-top: 2%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#landmarks-photo {
+    background-size: 100%;
+}
+#eat-local-container {
+    width: 70%;
+    margin-top: 2%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#food-stand-1 {
+    background-size: 100%;
+}
+
+#book-a-stay-container {
+    width: 70%;
+    margin-top: 2%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#book-a-stay-photo {
+    background-size: 100%;
+}
+
+#find-parking-container {
+    width: 70%;
+    margin-top: 2%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#find-parking-photo {
+    background-size: 100%;
+}
+
+/* Town Tour Page */
+
+#beach-title {
+    font-size: 150%;
+    margin-top: 10%;
+    padding-bottom: 5px;
+}
+
+#beach-title > p {
+    font-size: 80%;
+}
+
+.section1 {
+    width: 70%;
+    margin-top: 2%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#column-photos1 {
+    width: 70%;
+    margin-top: 2%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#harbour-title {
+    font-size: 150%;
+    padding-bottom: 5px;
+}
+
+#harbour-title > p {
+    font-size: 80%;
+}
+
+#column-photos2 {
+    width: 70%;
+    margin-top: 2%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#high-street-title {
+    font-size: 150%;
+    padding-bottom: 5px;
+}
+
+#high-street-title  > p {
+    font-size: 105%;
+}
+
+p {
+    font-size: 80%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 30px;
+}
+
+#column-photos3 {
+    width: 70%;
+    margin-top: 2%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.description {
+    font-size: 100%;
+}
+
+a {
+    font-size: 100%;
+}
+
+#empty p{
+    line-height: 60px;
+    margin-top: 60%;
+}
+
+/*Contact Page */
+
+#contact-us {
+    margin: 30% auto;
+}
+
+/* Footer */
+
+footer i {
+    font-size: 200%;
+}
 }
 
 }
