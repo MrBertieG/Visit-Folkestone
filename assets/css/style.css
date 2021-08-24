@@ -65,8 +65,12 @@ header a {
 /* Navigation Bar*/
 
 .active {
-    border-bottom: 3px solid;
-    border-color: #ffffff;
+    border-bottom: 3px solid #ffffff;
+}
+
+a:hover {
+    background-color: white;
+    color: black;
 }
 
 #navigation {
@@ -92,8 +96,6 @@ li {
 
 ul {
     list-style-type: none;
-    border-bottom: 2px solid black;
-    padding-bottom: 12px;
 }
 
 /*main banner */
@@ -103,6 +105,7 @@ ul {
     overflow: hidden;
 
     position: relative;
+    border-top: 2px solid black;
 }
 
 #main-banner {
@@ -633,4 +636,26 @@ span {
     footer i {
         font-size: 200%;
     }
+}
+
+@media screen and (min-width: 1000px) {
+    
+    /* Landing Page */
+
+header a {
+    font-size: 300%;
+}
+
+ul {
+    float: right;
+}
+
+li {
+    float: left;
+    margin: 0 20px 10px 20px;
+    padding: 5px 15px 5px 15px;
+}
+
+
+
 }
