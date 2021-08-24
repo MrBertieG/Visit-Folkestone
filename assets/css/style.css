@@ -23,6 +23,11 @@ body {
     color: #ffffff;
 
     padding: 2px;
+    margin-top: 30px;
+}
+
+section {
+    height: auto;
 }
 
 #picture-logo {
@@ -34,8 +39,9 @@ body {
     height: 94px;
     width: 70px;
     border-radius: 50%;
-    position: absolute;
-    top: 50px;
+    position: relative;
+    top: 129px;
+
     left: 50%;
     transform: translate(-186px, -55%);
 }
@@ -52,6 +58,7 @@ body {
 
 header {
     text-align: center;
+    margin-top: -65px;
 }
 
 header a {
@@ -83,6 +90,7 @@ li {
     overflow: hidden;
     color: #ffffff;
     background-color: #a9bdd8;
+    padding: 0 5px 0 5px;
 }
 
 ul {
@@ -101,19 +109,16 @@ li:hover {
     overflow: hidden;
 
     position: relative;
+    top: 27px;
     border-top: 2px solid black;
 }
 
 #main-banner {
+    height: 250px;
+
     background: url('../css/images/home_images/Harbour\ with\ boats.jpg') no-repeat center center;
-    background-size: 100%;
-    width: 144%;
-    
-    position: absolute;
-    top: -6px;
-    left: 0;
-    right: 0;
-    bottom: 0;
+
+    background-size: 150%;
     text-indent: -1000px;
 
     animation-name: banner-zoom;
@@ -570,6 +575,10 @@ span {
 
     /* Landing Page */
 
+    #picture-logo {
+        height: 89px;
+    }
+
     #intro {
         font-size: 100%;
     }
@@ -582,6 +591,8 @@ span {
 
     #beach-title h1 {
         font-size: 200%;
+        margin-top: -5%;
+        padding-bottom: 5px;
     }
 
     #beach-title > p {
@@ -590,6 +601,7 @@ span {
 
     #harbour-title h1 {
         font-size: 200%;
+        padding-bottom: 5px;
     }
 
     #harbour-title > p {
@@ -598,6 +610,7 @@ span {
 
     #high-street-title h1 {
         font-size: 200%;
+        padding-bottom: 5px;
     }
 
     #high-street-title  > p {
@@ -634,30 +647,31 @@ span {
     }
 }
 
+/*Desktop Screen Size*/
 @media screen and (min-width: 1000px) {
     
     /* Landing Page */
 
+header {
+    margin-top: -16%;
+}
+
 header a {
-    font-size: 300%;
+    font-size: 200%;
 }
 
 #picture-logo {
-    background-image: url(../css/images/home_images/Lighthouse\ Logo.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    text-indent: -1000px;
-    height: 188px;
-    width: 140px;
-    border-radius: 50%;
-    position: absolute;
-    top: 10%;
-    left: 21%;
-    transform: translate(-186px, -55%);
-}
+        height: 206.8px;
+        width: 154px;
+        top: 359px;
+        left: 216px;
+    }
 
 #logo {
-    margin: 3% 0 auto;
+    position: relative;
+    float: left;
+    top: 119px;
+    left: 17%;
 }
 
 ul {
