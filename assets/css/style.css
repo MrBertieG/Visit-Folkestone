@@ -139,6 +139,10 @@ li:hover {
     }
 }
 
+.text-hidden {
+    text-indent: -10000000px;
+    position: fixed;
+}
 
 #landmarks-container {
     width: 100%;
@@ -686,12 +690,12 @@ span {
 
 
 /*Desktop Screen Size*/
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1405px) {
     
     /* Landing Page */
 
 html {
-    width: 70%;
+    width: 85%;
     margin: 5% auto;
 }
 
@@ -706,7 +710,7 @@ header a {
 #picture-logo {
         height: 206.8px;
         width: 154px;
-        top: 400px;
+        top: 370px;
         left: 236px;
     }
 
@@ -715,7 +719,7 @@ header a {
     float: left;
     top: 119px;
     left: 13%;
-    font-size: 170%;
+    font-size: 140%;
 }
 
 ul {
