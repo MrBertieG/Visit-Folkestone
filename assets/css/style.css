@@ -886,4 +886,8 @@ footer i {
     margin-left: auto;
 }
 
+iframe {
+    height: 500px;
+}
+
 }
