@@ -19,8 +19,8 @@ body {
 
 #intro {
     font-family: fira sans, sans-serif;
-    background-color: rgba(123, 171, 235, 0.8);
-    color: #ffffff;
+    background-color: #8aacd8;
+    color: black;
 
     padding: 2px;
     margin-top: 30px;
@@ -55,7 +55,7 @@ section {
 
     margin: 0 auto;
 
-    color: #b6b6b6;
+    color: black;
 }
 
 header {
@@ -90,8 +90,8 @@ header a {
 li {
     display: inline-block;
     overflow: hidden;
-    color: #ffffff;
-    background-color: #a9bdd8;
+    color: black;
+    background-color: #8aacd8;
     padding: 0 5px 0 5px;
 }
 
@@ -101,7 +101,7 @@ ul {
 
 li:hover {
     background-color: white;
-    color: #a9bdd8;
+    color: #8aacd8;
 }
 
 /*main banner */
@@ -459,7 +459,7 @@ a {
     background-size: 100%;
     background-repeat: no-repeat;
     width: 100%;
-    height: 200px;
+    height: 188px;
     margin-top: 10%;
     border-top: 2px solid black;
 }
