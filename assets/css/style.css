@@ -413,6 +413,10 @@ a {
     padding: 6px;
 }
 
+#shop-sign {
+    width: 100%;
+}
+
 /*
 #overlay {
     position: relative;
