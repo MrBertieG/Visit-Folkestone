@@ -19,22 +19,23 @@ body {
 
 #intro {
     font-family: fira sans, sans-serif;
-    background-color: #8aacd8;
-    color: black;
+    background-color: #6fa0df;
+    color: white;
 
     padding: 2px;
     margin-top: 30px;
 }
 
-section {
-    height: auto;
+header a {
+    text-decoration: none;
+    color: inherit;
+    font-family: Fira Sans, sans-serif;
 }
 
 #picture-logo {
     background-image: url('../css/images/home_images/Lighthouse\ Logo.png');
     background-repeat: no-repeat;
     background-size: 100%;
-    text-indent: -1000px;
 
     height: 94px;
     width: 70px;
@@ -61,12 +62,6 @@ section {
 header {
     text-align: center;
     margin-top: -65px;
-}
-
-header a {
-    text-decoration: none;
-    color: inherit;
-    font-family: Fira Sans, sans-serif;
 }
 
 /* Navigation Bar*/
@@ -101,7 +96,7 @@ ul {
 
 li:hover {
     background-color: white;
-    color: #8aacd8;
+    color: #6fa0df;
 }
 
 /*main banner */
