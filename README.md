@@ -63,5 +63,8 @@ These four links are:
 - Each section contains photos of different parts of the town. All of the pictures have been taken by me. 
 - The pictures are clickable with a new tab openining and directing the user to a google map location on where that set picture was take. This wat the user can find and experience each location.    
 
+<br><br>
 
+## Contact
+![Contact Page Screenshot](assets/images/readme_img/Contact_page.png)
 
