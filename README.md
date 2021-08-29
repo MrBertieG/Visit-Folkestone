@@ -110,21 +110,21 @@ Web Browser
 
 ## Technologies Used
 
-- HTML5
-- CSS3
-- GitHub
-- GitPod
-- Balsamiq
-- Mac Os Preview
-- Font Awesome
-- Google Fonts
-- Google Chrome
-- Google DevTools
-- Eye Dropper
-- Unocorn Revealer
-- Viewport Resizer
-- Readme
-- W3C Markup and Jigsaw validators
+- [HTML5](https://en.wikipedia.org/wiki/HTML5) HyperText Markup Language.
+- [CSS3](https://en.wikipedia.org/wiki/CSS) Cascade Style Sheets.
+- [GitHub](https://github.com/) is used to store the project by commiting changes and pushing them via a terminal.
+- [GitPod](https://www.gitpod.io/) is used to code the website.
+- [Balsamiq](https://balsamiq.com/) is used for the mockup of the website before coding. 
+- [Mac Os Preview](https://support.apple.com/en-gb/guide/preview/welcome/mac) is a tool on MacBook used to view and make changes to image files. I used this to resize images in order to fit the website. 
+- [Font Awesome](https://fontawesome.com/) is used for the footer icons. 
+- [Google Fonts](https://fonts.google.com/) is used to implement the two fonts used in the website. Fira Sans and Oxygen. 
+- [Google Chrome](https://www.google.co.uk/chrome/?brand=FHFK&gclid=CjwKCAjw4KyJBhAbEiwAaAQbE7E7ZbTy2V4OGQXkCgmeXbu-JV5E2tI_lsBDZJbPAwgteMPU3DRvnxoCj_wQAvD_BwE&gclsrc=aw.ds) Is used to preview the website throught the development cycle. 
+- [Google DevTools](https://developers.google.com/web/tools) is used for tersting and also making changes in real time thriught the development process.
+- [Eye Dropper](https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka?hl=en) is a Chrome extension used to select colours and find out the rgba or hex combination of set colours. I used this to pick a colour from the sky of the main banner picture in the landing page in order to set the colour theme of the website. 
+- [Unocorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) is a Chrome extension used to preview margins of the Box Model CSS uses. It was particularly helpful to trouble shoot indentation issues and media query formating. 
+- [Viewport Resizer](https://chrome.google.com/webstore/detail/viewport-resizer-%E2%80%93-respon/kapnjjcfcncngkadhpmijlkblpibdcgm?hl=en) is a Chrome extension used to simulate the viewport of various devices, from Mobile to Desktop. 
+- [Readme](https://chrome.google.com/webstore/detail/readme-text-to-speech-rea/npdkkcjlmhcnnaoobfdjndibfkkhhdfn?hl=en-GB) is a Text-to-speach reader. This was particularly useful to use as it shows first hand what might visually impaired users would hear if the pictures can't be seen. 
+- [W3C Markup](https://validator.w3.org/) and [Jigsaw](https://jigsaw.w3.org/css-validator/) validators are used to check the syntax of both languages.
 
 ## Deployment
 
@@ -141,3 +141,6 @@ Web Browser
 
 
 ## Credits
+
+- The zoom effect was inspired from the Love Running Project.
+- The Logo picture, Page title and all pictures but [one](assets/images/town_tour_images/ship_leaving.jpeg)
