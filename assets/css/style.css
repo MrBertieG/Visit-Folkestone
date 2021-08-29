@@ -33,7 +33,7 @@ header a {
 }
 
 #picture-logo {
-    background-image: url('../css/images/home_images/Lighthouse\ Logo.png');
+    background-image: url('../images/home_images/Lighthouse\ Logo.png');
     background-repeat: no-repeat;
     background-size: 100%;
 
@@ -113,7 +113,7 @@ li:hover {
 #main-banner {
     height: 250px;
 
-    background: url('../css/images/home_images/Harbour\ with\ boats.jpg') no-repeat center center;
+    background: url('../images/home_images/Harbour\ with\ boats.jpg') no-repeat center center;
 
     background-size: 150%;
     text-indent: -1000px;
@@ -148,7 +148,7 @@ li:hover {
 }
 
 #landmarks-photo {
-    background: url('../css/images/home_images/Harbour\ Arm.jpg') no-repeat center center;
+    background: url('../images/home_images/Harbour\ Arm.jpg') no-repeat center center;
     background-size: 120%;
     height: 100%;
 }
@@ -173,7 +173,7 @@ li:hover {
 }
 
 #food-stand-1 {
-    background: url('../css/images/home_images/Eat\ Local.jpg') no-repeat center center;
+    background: url('../images/home_images/Eat\ Local.jpg') no-repeat center center;
     background-size: 120%;
     height: 200px;
 }
@@ -199,7 +199,7 @@ li:hover {
 }
 
 #book-a-stay-photo {
-    background: url('../css/images/home_images/Imperial\ Hotel.jpg') no-repeat center center;
+    background: url('../images/home_images/Imperial\ Hotel.jpg') no-repeat center center;
     background-size: 120%;
     height: 200px;
 }
@@ -226,7 +226,7 @@ li:hover {
 }
 
 #find-parking-photo {
-    background: url('../css/images/home_images/Find\ Parking.jpg') no-repeat center center;
+    background: url('../images/home_images/Find\ Parking.jpg') no-repeat center center;
     background-size: 120%;
     height: 151px;
 }
@@ -449,7 +449,7 @@ a {
 /* Contact Page */
 
 #goodbye {
-    background-image: url('../css/images/town_tour_images/ship\ leaving\ .jpeg');
+    background-image: url('../images/town_tour_images/ship\ leaving\ .jpeg');
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
