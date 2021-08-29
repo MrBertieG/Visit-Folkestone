@@ -66,6 +66,23 @@ These four links are:
 <br><br>
 
 ## Contact
-![Contact Page Screenshot](assets/images/readme_img/Contact_page.png)
+![Contact Page Screenshot](assets/images/readme_img/Contact_page_small.png)
 
 - This page contains a main picture banner, a feedback form where visitors can leave a commnet on their experience in visiting the town of Folkestone, contact details for the website's Admin Team and an interractive Google Maps for those who need to find out where Folkestone is located in the UK. 
+
+<br><br>
+
+## Bugs
+
+- There no bugs on this website.
+
+<br><br>
+
+## Manual Testing
+
+- Chrome Developer Tools Lighthouse. Performance is in the amber zone due the the picture sizes. Visit Folkestone is a website designed to attract visitors so the aim is for the pictures to be as clear and high definition as possible to entice people to come over. The Website still performes well.
+![Lighthouse DevTools](assets/images/readme_img/Lighthouse_performance.png)
+- W3C Validator.
+![W3C HTML Validator Screenshot](assets/images/readme_img/W3C_HTML_Validator.png)
+- Jigsaw Validator.
+![W3C CSS Validator Screenshot](assets/images/readme_img/W3C_CSS_Validator.png)
