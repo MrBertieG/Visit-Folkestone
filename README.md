@@ -68,3 +68,4 @@ These four links are:
 ## Contact
 ![Contact Page Screenshot](assets/images/readme_img/Contact_page.png)
 
+- This page contains a main picture banner, a feedback form where visitors can leave a commnet on their experience in visiting the town of Folkestone, contact details for the website's Admin Team and an interractive Google Maps for those who need to find out where Folkestone is located in the UK. 
