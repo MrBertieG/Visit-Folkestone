@@ -41,7 +41,7 @@ These four links are:
 <br/><br/>
 
 ## Visit Folkestone Video ![Page Video](assets/images/readme_img/Video.png)
-- The video is situated at the bottom of the page. It's a video of Folkestone and it hase been taken from the [Folkestone & Hythe Distric Council Youtube channel](https://www.youtube.com/embed/6g7u5iQxjm8). The video will play within the page but it not play automatically.
+- The video is situated at the bottom of the page. It's a video of Folkestone and it has been taken from the [Folkestone & Hythe Distric Council Youtube channel](https://www.youtube.com/embed/6g7u5iQxjm8). The video will play within the page but it not play automatically or looped. The video has controls such as play and pause, mute and unmute. 
 
     <br><br>
 
@@ -55,13 +55,14 @@ These four links are:
 
 ## Town Tour
 
-- This page is split in to three sections:
+- This page is split in to three sections.
+- Each section contains photos of different parts of the town. All of the pictures have been taken by me. 
+- The pictures are clickable with a new tab openining and directing the user to a google map location on where that set picture was take. This wat the user can find and experience each location.  
     - To the Beach! <br> ![To the Beach Picture](assets/images/readme_img/Town_tour_1.png)
     - To the Harbour! <br> ![To the Harbour Picture](assets/images/readme_img/Town_tour_2.png)
     - To the High Street! <br> ![To the High Street picture](assets/images/readme_img/Town_tour_3.png) <br>
     ![To the High Street part two picture](assets/images/readme_img/Town_tour_4.png)
-- Each section contains photos of different parts of the town. All of the pictures have been taken by me. 
-- The pictures are clickable with a new tab openining and directing the user to a google map location on where that set picture was take. This wat the user can find and experience each location.    
+  
 
 <br><br>
 
@@ -69,6 +70,24 @@ These four links are:
 ![Contact Page Screenshot](assets/images/readme_img/Contact_page_small.png)
 
 - This page contains a main picture banner, a feedback form where visitors can leave a commnet on their experience in visiting the town of Folkestone, contact details for the website's Admin Team and an interractive Google Maps for those who need to find out where Folkestone is located in the UK. 
+
+<br><br>
+
+## Website Wireframe
+
+- The website's skeleton was designed using [Balsamiq]()
+- Three versions were designed: Mobile, Tablet and Web Browser.
+- Although the Website is not 100% identical to the wireframe, this has proven to be a useful tool in establishing how the website will be designed. 
+
+Mobile 
+![Mobile Wireframe Picture](assets/images/readme_img/Wireframe_mobile.png)
+
+Tablet
+![Tablet Wireframe Picture](assets/images/readme_img/Wireframe_Tablet.png)
+
+Web Browser
+![Web Browser Picture](assets/images/readme_img/Wireframe_Website.png)
+
 
 <br><br>
 
