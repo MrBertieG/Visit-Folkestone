@@ -10,6 +10,37 @@ This website is designed to help users visiting the town of Folkestone to find p
 
 <br><br>
 
+# Table of Contents
+
+## 1. User Expectation
+## 2. Features
+## 3. Bugs
+## 4. Manual Testing
+## 5. Technologies Used
+## 6. Deployment
+## 7. Credits
+
+<br><br>
+
+# User Expectations
+## A user visiting the website would expect the following:
+- To find it easy to understand the purpose of the website.
+- To easily navigate the website through it's contents.
+- To find information on the things to do in the town of Folkestone
+- To find information on the places to eat.
+- To find information on the places to stay.
+- To find information on the places to park.
+- To find information on how to find the town.
+
+## Design Approach
+Then reason why I chose this design for the website is because it's simplicity. Users spend a matter of seconds on a website before they decide if this is the place for them or not. 
+
+Visit Folkestone presents its information quickly and it allowes the users to find the location of where each picture was taken by clicking on each picture, whilst redirecting them to an exact location on Google Maps.
+
+The pictures on the website were taken by me, and I have kept the picture cropping to a minimum. The reason behind is to allow the user to experience the highest quality so that they can immerse themselvs in the experience. I believe that this is an important decisive factor if a user wants to visit the town of Folkestone.
+
+The primary purpose of the websote is to attract visitors. 
+
 # Features
 
 ## Navigation ![Navigation bar](assets/images/readme_img/nav_bar.png)
@@ -95,7 +126,10 @@ Web Browser
 
 ## Bugs
 
-- There no bugs on this website.
+- There were some initial bugs in the website which were solved later one with the help of my fellow colleagues in [Slack](https://slack.com/intl/en-gb/). Bugs included things such as: 
+    - Small section above the header was clickable but only showing in large screen sizes. 
+    - iFrame didn't work as did not used embeded code. 
+    
 
 <br><br>
 
@@ -107,7 +141,7 @@ Landing Page | Clicking on the Logo, Title, and Main Picture banner will redirec
 Town Tour Page | Clicking "Town Tour" tab in the nav bar will redirect you to the second page of the website. All images have been tested, and will redirect the user successfully to external pages | PASS
 Conttact Page | Clicking "Contact" tab in the nav bar will redirect you to the third page of the website. The submission form will send the information successfully to https://formdump.codeinstitute.net/ . The google maps interractive map also works successfully | PASS
 Text | All fonts and colours have been consistent throughout the website | PASS
-Footer | The footer contains four social media icons. Facebook, Instagram, Youtube, Twitter which will redirect the user to their resipective website. 
+Footer | The footer contains four social media icons. Facebook, Instagram, Youtube, Twitter which when clicked, will redirect the user to their resipective website. | PASS
 
 
 - Chrome Developer Tools Lighthouse. Performance is in the amber zone due the the picture sizes. Visit Folkestone is a website designed to attract visitors so the aim is for the pictures to be as clear and high definition as possible to entice people to come over. The Website still performes well.
@@ -137,7 +171,7 @@ Footer | The footer contains four social media icons. Facebook, Instagram, Youtu
 
 ## Deployment
 
-- To deploy my website I have used GitHub. In order to do so I have followed the below steps:
+To deploy my website I have used GitHub. In order to do so I have followed the below steps:
 
 - Create a repository on GitHub.
 - Go to the list of repository in GitHub.
@@ -154,5 +188,5 @@ Footer | The footer contains four social media icons. Facebook, Instagram, Youtu
 - The zoom effect was inspired from the Love Running Project.
 - The Logo picture, Page title and all pictures but [one](assets/images/town_tour_images/ship_leaving.jpeg) were created and taken by me.
 - [W3Scools](https://www.w3schools.com/) was used for generic code inspiration. 
-- My Mentor, Marcel Mulders for his feedback.
+- To my Mentor, Marcel Mulders for his feedback.
 - README.md was inspired by https://github.com/dhakal79/Portfolio-project-MS1#deployment and https://github.com/iKelvvv/MS1#known-bugs
