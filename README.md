@@ -70,6 +70,8 @@ These four links are:
 ![Contact Page Screenshot](assets/images/readme_img/Contact_page_small.png)
 
 - This page contains a main picture banner, a feedback form where visitors can leave a commnet on their experience in visiting the town of Folkestone, contact details for the website's Admin Team and an interractive Google Maps for those who need to find out where Folkestone is located in the UK. 
+- Once filled in the form will present with the following action: 
+![Form Result Message]()
 
 <br><br>
 
@@ -105,3 +107,37 @@ Web Browser
 ![W3C HTML Validator Screenshot](assets/images/readme_img/W3C_HTML_Validator.png)
 - Jigsaw Validator.
 ![W3C CSS Validator Screenshot](assets/images/readme_img/W3C_CSS_Validator.png)
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- GitHub
+- GitPod
+- Balsamiq
+- Mac Os Preview
+- Font Awesome
+- Google Fonts
+- Google Chrome
+- Google DevTools
+- Eye Dropper
+- Unocorn Revealer
+- Viewport Resizer
+- Readme
+- W3C Markup and Jigsaw validators
+
+## Deployment
+
+- To deploy my website I have used GitHub. In order to do so I have followed the below steps:
+
+- Create a repository on GitHub.
+- Go to the list of repository in GitHub.
+- Select  the repository you wish to deploy, in my case Visit-Folkestone repository.
+- In the top navigation bar select Settings.
+- On the left column list select Pages.
+- Under Source click on the drop down arrow next to None and select Main and press Save. The page will refresh.
+- The web address will appear. Example: https://mrbertieg.github.io/Visit-Folkestone/
+- Refresh the page again and a green tick will appear next to the new web address. 
+
+
+## Credits
