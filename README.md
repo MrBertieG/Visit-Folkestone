@@ -101,6 +101,15 @@ Web Browser
 
 ## Manual Testing
 
+TEST | ACTION | RESULT |
+-----|:--------:|--------|
+Landing Page | Clicking on the Logo, Title, and Main Picture banner will redirect to the main landing page. Clicking on the video will play with no issues. All other links in the landing page will redirect the user to extewrnal pages. All links work correctly| PASS
+Town Tour Page | Clicking "Town Tour" tab in the nav bar will redirect you to the second page of the website. All images have been tested, and will redirect the user successfully to external pages | PASS
+Conttact Page | Clicking "Contact" tab in the nav bar will redirect you to the third page of the website. The submission form will send the information successfully to https://formdump.codeinstitute.net/ . The google maps interractive map also works successfully | PASS
+Text | All fonts and colours have been consistent throughout the website | PASS
+Footer | The footer contains four social media icons. Facebook, Instagram, Youtube, Twitter which will redirect the user to their resipective website. 
+
+
 - Chrome Developer Tools Lighthouse. Performance is in the amber zone due the the picture sizes. Visit Folkestone is a website designed to attract visitors so the aim is for the pictures to be as clear and high definition as possible to entice people to come over. The Website still performes well.
 ![Lighthouse DevTools](assets/images/readme_img/Lighthouse_performance.png)
 - W3C Validator.
@@ -143,4 +152,7 @@ Web Browser
 ## Credits
 
 - The zoom effect was inspired from the Love Running Project.
-- The Logo picture, Page title and all pictures but [one](assets/images/town_tour_images/ship_leaving.jpeg)
+- The Logo picture, Page title and all pictures but [one](assets/images/town_tour_images/ship_leaving.jpeg) were created and taken by me.
+- [W3Scools](https://www.w3schools.com/) was used for generic code inspiration. 
+- My Mentor, Marcel Mulders for his feedback.
+- README.md was inspired by https://github.com/dhakal79/Portfolio-project-MS1#deployment and https://github.com/iKelvvv/MS1#known-bugs
