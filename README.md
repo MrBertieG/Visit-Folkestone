@@ -15,7 +15,7 @@ This website is designed to help users visiting the town of Folkestone to find p
 ## [1.User Experience](#user-ex) 
 - User Expectations
 - Design Approach
-## 2. Features
+## [2. Features](#features)
 - Navigation
 - Header
 - External Links
@@ -23,16 +23,16 @@ This website is designed to help users visiting the town of Folkestone to find p
 - Footer
 - Town Tour Page
 - Contact Page
-## 3. Wireframe
-## 4. Deployment
-## 5. Manual Testing
-## 6. Technologies Used
-## 7. Bugs
-## 8. [Credits](#credits)
+## [3. Wireframe](#wireframe)
+## [4. Deployment](#deployment)
+## [5. Manual Testing](#manual-testing)
+## [6. Technologies Used](#tech-used)
+## [7. Bugs](#bugs)
+## [8. Credits](#credits)
 
 <br><br>
 
-# 1. [User Expectations](#user-ex)
+# 1. <a name="user-ex">User Experience</a>
 ## A user visiting the website would expect the following:
 - To find it easy to understand the purpose of the website.
 - To easily navigate the website through it's contents.
@@ -53,7 +53,7 @@ This website is designed to help users visiting the town of Folkestone to find p
 
 - The primary purpose of the website is to attract visitors. 
 
-# 2. Features
+# <a name="features">2. Features</a>
 
 ## Navigation ![Navigation bar](assets/images/readme_img/nav_bar.png)
 
@@ -118,7 +118,7 @@ These four links are:
 
 <br><br>
 
-## Website Wireframe
+## <a name="wireframe">3. Website Wireframe</a>
 
 - The website's skeleton was designed using [Balsamiq]()
 - Three versions were designed: Mobile, Tablet and Web Browser.
@@ -136,7 +136,7 @@ Web Browser
 
 <br><br>
 
-## Manual Testing
+## <a name="manual-testing">4. Manual Testing</a>
 
 TEST | ACTION | RESULT |
 -----|:--------:|--------|
@@ -158,7 +158,7 @@ Footer | The footer contains four social media icons. Facebook, Instagram, Youtu
 
 <br><br>
 
-## Technologies Used
+## <a name="tech-used">5. Technologies Used</a>
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5) HyperText Markup Language.
 - [CSS3](https://en.wikipedia.org/wiki/CSS) Cascade Style Sheets.
@@ -178,7 +178,7 @@ Footer | The footer contains four social media icons. Facebook, Instagram, Youtu
 
 <br><br>
 
-## Deployment
+## <a name="deployment">6.Deployment</a>
 
 To deploy my website I have used GitHub. In order to do so I have followed the below steps:
 
@@ -193,7 +193,7 @@ To deploy my website I have used GitHub. In order to do so I have followed the b
 
 <br><br>
 
-## Bugs
+## <a name="bugs">7.Bugs</a>
 
 - There were some initial bugs in the website which were solved later one with the help of my fellow colleagues in [Slack](https://slack.com/intl/en-gb/). Bugs included things such as: 
     - Small section above the header was clickable but only showing in large screen sizes. 
@@ -201,7 +201,7 @@ To deploy my website I have used GitHub. In order to do so I have followed the b
 
    <br><br> 
 
-## <a name="credits"> Credits</a>
+## <a name="credits"> 8. Credits</a>
 
 - The zoom effect was inspired from the Love Running Project.
 - The Logo picture, Page title and all pictures but [one](assets/images/town_tour_images/ship_leaving.jpeg) were created and taken by me.
