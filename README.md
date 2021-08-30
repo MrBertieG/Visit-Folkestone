@@ -124,11 +124,12 @@ These four links are:
 [Index](#top)
 
 ## Contact
-![Contact Page Screenshot](assets/images/readme_img/Contact_page_small.png)
+![Contact Page Screenshot](assets/images/readme_img/contact_small.png)
 
 - This page contains a main picture banner, a feedback form where visitors can leave a comment on their experience on visiting the town of Folkestone, contact details for the website's Admin Team and an interractive Google Maps for those who need to find out where Folkestone is located in the UK. 
 - Once filled, the form will present with the following action: 
-![Form Result Message](assets/images/readme_img/form_result.png)
+ ![Form Result Message](assets/images/readme_img/form_result.png)
+ - The form buttons also contains a coursor pointer effect. 
 
 <br><br>
 
