@@ -44,7 +44,7 @@ This website is designed to help users visiting the town of Folkestone to find p
 - To find information on the places to park.
 - To find information on how to find the town.
 
-### A returning user visitng the website:
+### A returning user visiting the website:
 - Will want to find information on how to get in touch with the site's Admin Team.
 - Will want to leave feedback on things that can be improved, either for the website or for the town it's self.
 - Will find new photos taken for various parts of the town with links to locations included.
