@@ -413,9 +413,6 @@ a {
     width: 100%;
 }
 
-
-
-
 /* Contact Page */
 
 #goodbye {
@@ -489,12 +486,12 @@ span {
 
 .button1 {
 
-    width: 35%;
+    width: 45%;
     font-size: 75%;
     float: left;
     font-family: fira sans, sans-serif;
     cursor: pointer;
-    padding: 4px 25px;
+    padding: 4px 10px;
     text-align: center;
     outline: none;
     color: #fff;
@@ -509,7 +506,7 @@ span {
     float: right;
     font-family: fira sans, sans-serif;
     cursor: pointer;
-    padding: 4px 25px;
+    padding: 4px 10px;
     text-align: center;
     outline: none;
     color: #fff;
@@ -517,28 +514,6 @@ span {
     border: none;
     border-radius: 15px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media screen and (min-width: 906px) {
 
@@ -636,26 +611,6 @@ span {
         font-size: 200%;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*Desktop Screen Size*/
