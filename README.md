@@ -201,7 +201,7 @@ To deploy my website I have used GitHub. In order to do so I have followed the b
 
    <br><br> 
 
-## Credits <a name="credits"> Credits</a>
+## <a name="credits"> Credits</a>
 
 - The zoom effect was inspired from the Love Running Project.
 - The Logo picture, Page title and all pictures but [one](assets/images/town_tour_images/ship_leaving.jpeg) were created and taken by me.
