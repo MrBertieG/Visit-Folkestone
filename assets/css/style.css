@@ -87,7 +87,7 @@ li {
     overflow: hidden;
     color: white;
     background-color: #6fa0df;
-    padding: 0 5px 0 5px;
+    padding: 5px 5px 5px 5px;
 }
 
 ul {
@@ -253,6 +253,7 @@ footer {
     text-align: center;
     width: 100%;
     border-top: 2px solid black;
+    padding-top: 10px;
 }
 
 footer a {
@@ -260,7 +261,7 @@ footer a {
 }
 
 i {
-    padding: 10px 20px 10px 20px;
+    padding: 0 20px 0 20px;
     font-size: 155%;
 }
 
@@ -412,39 +413,8 @@ a {
     width: 100%;
 }
 
-/*
-#overlay {
-    position: relative;
-    top: 10%;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #008CBA;
-  }
-  
-  #img-container:hover #overlay {
-    opacity: 1;
-    border: 1px solid black;
-  }
-  
-  #text {
 
-    color: white;
-    font-size: 20px;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
 
-  */
 
 /* Contact Page */
 
@@ -514,24 +484,40 @@ span {
 }
 
 #outer {
-    width:101%;
+    width:100%;
 }
 
 .button1 {
-    border: 1px solid black;
-    width: 61%;
+
+    width: 35%;
     font-size: 75%;
     float: left;
     font-family: fira sans, sans-serif;
+    cursor: pointer;
+    padding: 4px 25px;
+    text-align: center;
+    outline: none;
+    color: #fff;
+    background-color: #6fa0df;
+    border: none;
+    border-radius: 15px;
 }
 
 .button2 {
-    border: 1px solid black;
-    width: 27%;
+    width: 20%;
     font-size: 75%;
     float: right;
     font-family: fira sans, sans-serif;
+    cursor: pointer;
+    padding: 4px 25px;
+    text-align: center;
+    outline: none;
+    color: #fff;
+    background-color: #6fa0df;
+    border: none;
+    border-radius: 15px;
 }
+
 
 
 
