@@ -1,842 +1,765 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Oxygen&display=swap');
-
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
 html {
-    width: 100%;
-}
-body {
-    height: 100%;
+  width: 100%;
 }
 
+body {
+  height: 100%;
+}
+
+
 /* Mobile screen size */
+
 
 /* Page Logo */
 
 #intro {
-    font-family: fira sans, sans-serif;
-    background-color: #6fa0df;
-    color: white;
-
-    padding: 2px;
-    margin-top: 30px;
+  font-family: fira sans, sans-serif;
+  background-color: #6fa0df;
+  color: white;
+  padding: 2px;
+  margin-top: 30px;
 }
 
 header a {
-    text-decoration: none;
-    color: inherit;
-    font-family: Fira Sans, sans-serif;
+  text-decoration: none;
+  color: inherit;
+  font-family: Fira Sans, sans-serif;
 }
 
 #picture-logo {
-    background-image: url('../images/home_images/Lighthouse\ Logo.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
-
-    height: 94px;
-    width: 70px;
-    border-radius: 50%;
-    position: relative;
-    top: 129px;
-
-    left: 50%;
-    transform: translate(-186px, -55%);
+  background-image: url('../images/home_images/Lighthouse_Logo.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 94px;
+  width: 70px;
+  border-radius: 50%;
+  position: relative;
+  top: 129px;
+  left: 50%;
+  transform: translate(-186px, -55%);
 }
 
 #logo {
-    font-family: Oxygen, sans-serif;
-    font-size: 117%;
-    margin-top: 20px;
-
-    width: auto;
-
-    margin: 0 auto;
-
-    color: black;
+  font-family: Oxygen, sans-serif;
+  font-size: 117%;
+  margin-top: 20px;
+  width: auto;
+  margin: 0 auto;
+  color: black;
 }
 
 header {
-    text-align: center;
-    margin-top: -65px;
+  text-align: center;
+  margin-top: -65px;
 }
+
 
 /* Navigation Bar*/
 
 .active {
-    border-bottom: 3px solid #ffffff;
+  border-bottom: 3px solid #ffffff;
 }
 
 #navigation {
-    font-size: 98%;
-    float: right;
-    list-style-type: none;
-    width: 100%;
+  font-size: 98%;
+  float: right;
+  list-style-type: none;
+  width: 100%;
 }
 
 #navigation a {
-    text-decoration: none;
-    text-transform: uppercase;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 li {
-    display: inline-block;
-    overflow: hidden;
-    color: white;
-    background-color: #6fa0df;
-    padding: 5px 5px 5px 5px;
+  display: inline-block;
+  overflow: hidden;
+  color: white;
+  background-color: #6fa0df;
+  padding: 5px 5px 5px 5px;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 li:hover {
-    background-color: white;
-    color: #6fa0df;
+  background-color: white;
+  color: #6fa0df;
 }
 
-/*main banner */
-#main-banner-container {
-    height: 250px;
-    width: 100%;
-    overflow: hidden;
 
-    position: relative;
-    top: 27px;
-    border-top: 2px solid black;
+/*main banner */
+
+#main-banner-container {
+  height: 250px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  top: 27px;
+  border-top: 2px solid black;
 }
 
 #main-banner {
-    height: 250px;
-
-    background: url('../images/home_images/Harbour\ with\ boats.jpg') no-repeat center center;
-
-    background-size: 150%;
-    text-indent: -1000px;
-
-    animation-name: banner-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
+  height: 250px;
+  background: url('../images/home_images/Harbour_with_boats.jpg') no-repeat center center;
+  background-size: 150%;
+  text-indent: -1000px;
+  animation-name: banner-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
 }
+
 
 /* zoom efect main banner */
 
 @keyframes banner-zoom {
-    from {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(1.1);
-    }
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
 }
 
 .text-hidden {
-    text-indent: -10000000px;
-    position: fixed;
+  text-indent: -10000000px;
+  position: fixed;
 }
 
 #landmarks-container {
-    width: 100%;
-    height: 150px;
-    padding-top: 4px;
-
-    overflow: hidden;
+  width: 100%;
+  height: 150px;
+  padding-top: 4px;
+  overflow: hidden;
 }
 
 #landmarks-photo {
-    background: url('../images/home_images/Harbour\ Arm.jpg') no-repeat center center;
-    background-size: 120%;
-    height: 100%;
+  background: url('../images/home_images/Harbour_Arm.jpg') no-repeat center center;
+  background-size: 120%;
+  height: 100%;
 }
 
 #landmarks-photo h2 {
-    font-family: Oxygen, sans-serif;
-    color: #ffffff;
-    position: relative;
-    top: 76%;
-    width: 100%;
-    padding-left: 16%;
-    background-color: rgba(123, 171, 235, 0.8);
-    font-size: 200%;
-    text-transform: uppercase;
+  font-family: Oxygen, sans-serif;
+  color: #ffffff;
+  position: relative;
+  top: 76%;
+  width: 100%;
+  padding-left: 16%;
+  background-color: rgba(123, 171, 235, 0.8);
+  font-size: 200%;
+  text-transform: uppercase;
 }
-#eat-local-container {
-    width: 100%;
-    height: 150px;
-    padding-top: 4px;
 
-    overflow: hidden;
+#eat-local-container {
+  width: 100%;
+  height: 150px;
+  padding-top: 4px;
+  overflow: hidden;
 }
 
 #food-stand-1 {
-    background: url('../images/home_images/Eat\ Local.jpg') no-repeat center center;
-    background-size: 120%;
-    height: 200px;
+  background: url('../images/home_images/Eat_Local.jpg') no-repeat center center;
+  background-size: 120%;
+  height: 200px;
 }
 
 #eat-local-container h2 {
-    font-family: Oxygen, sans-serif;
-    color: #ffffff;
-    position: relative;
-    top: 57%;
-    width: 100%;
-    padding-left: 16%;
-    background-color: rgba(123, 171, 235, 0.8);
-    font-size: 200%;
-    text-transform: uppercase;
+  font-family: Oxygen, sans-serif;
+  color: #ffffff;
+  position: relative;
+  top: 57%;
+  width: 100%;
+  padding-left: 16%;
+  background-color: rgba(123, 171, 235, 0.8);
+  font-size: 200%;
+  text-transform: uppercase;
 }
 
 #book-a-stay-container {
-    width: 100%;
-    height: 150px;
-    padding-top: 4px;
-
-    overflow: hidden;
+  width: 100%;
+  height: 150px;
+  padding-top: 4px;
+  overflow: hidden;
 }
 
 #book-a-stay-photo {
-    background: url('../images/home_images/Imperial\ Hotel.jpg') no-repeat center center;
-    background-size: 120%;
-    height: 200px;
+  background: url('../images/home_images/Imperial_Hotel.jpg') no-repeat center center;
+  background-size: 120%;
+  height: 200px;
 }
 
 #book-a-stay-photo h2 {
-    font-family: Oxygen, sans-serif;
-    color: #ffffff;
-    position: relative;
-    top: 57%;
-    width: 100%;
-    padding-left: 16%;
-    background-color: rgba(123, 171, 235, 0.8);
-    font-size: 200%;
-    text-transform: uppercase;
+  font-family: Oxygen, sans-serif;
+  color: #ffffff;
+  position: relative;
+  top: 57%;
+  width: 100%;
+  padding-left: 16%;
+  background-color: rgba(123, 171, 235, 0.8);
+  font-size: 200%;
+  text-transform: uppercase;
 }
 
 #find-parking-container {
-    width: 100%;
-    height: 150px;
-    padding-top: 4px;
-    padding-bottom: 2px;
-
-    overflow: hidden;
+  width: 100%;
+  height: 150px;
+  padding-top: 4px;
+  padding-bottom: 2px;
+  overflow: hidden;
 }
 
 #find-parking-photo {
-    background: url('../images/home_images/Find\ Parking.jpg') no-repeat center center;
-    background-size: 120%;
-    height: 151px;
+  background: url('../images/home_images/Find_Parking.jpg') no-repeat center center;
+  background-size: 120%;
+  height: 151px;
 }
 
 #find-parking-photo h2 {
-    font-family: Oxygen, sans-serif;
-    color: #ffffff;
-    position: relative;
-    top: 77%;
-    
-    width: 100%;
-    padding-left: 16%;
-    background-color: rgba(123, 171, 235, 0.8);
-
-
-    font-size: 200%;
-    text-transform: uppercase;
+  font-family: Oxygen, sans-serif;
+  color: #ffffff;
+  position: relative;
+  top: 77%;
+  width: 100%;
+  padding-left: 16%;
+  background-color: rgba(123, 171, 235, 0.8);
+  font-size: 200%;
+  text-transform: uppercase;
 }
 
 
 /* Footer */
 
 footer {
-    text-align: center;
-    width: 100%;
-    border-top: 2px solid black;
-    padding-top: 10px;
+  text-align: center;
+  width: 100%;
+  border-top: 2px solid black;
+  padding-top: 10px;
 }
 
 footer a {
-    color:#6fa0df;
+  color: #6fa0df;
 }
 
 i {
-    padding: 0 20px 0 20px;
-    font-size: 155%;
+  padding: 0 20px 0 20px;
+  font-size: 155%;
 }
 
+
 /* Town Tour Page */
+
 #beach-title {
-    display: block;
+  display: block;
 }
 
 #beach-title h1 {
-    font-size: 150%;
-    font-family: Oxygen, sans-serif;
-    padding-top: 20%;
-    padding-left: 2px;
-    border-bottom: 2px solid black;
+  font-size: 150%;
+  font-family: Oxygen, sans-serif;
+  padding-top: 20%;
+  padding-left: 2px;
+  border-bottom: 2px solid black;
 }
 
-#beach-title > p {
-    font-family: fira sans, sans-serif;
-
-    margin-bottom: 2px;
-    padding: 1px;
-    background-color: #6fa0df;
-    color: white;
-    font-size: 90%;
+#beach-title>p {
+  font-family: fira sans, sans-serif;
+  margin-bottom: 2px;
+  padding: 1px;
+  background-color: #6fa0df;
+  color: white;
+  font-size: 90%;
 }
 
 #harbour-title h1 {
-    font-size: 150%;
-    font-family: Oxygen, sans-serif;
-    padding-top: 20%;
-    padding-left: 2px;
-    border-bottom: 2px solid black;
+  font-size: 150%;
+  font-family: Oxygen, sans-serif;
+  padding-top: 20%;
+  padding-left: 2px;
+  border-bottom: 2px solid black;
 }
 
-#harbour-title > p {
-    font-family: fira sans, sans-serif;
-
-    margin-bottom: 2px;
-    padding: 1px;
-    background-color: #6fa0df;
-    color: white;
-    font-size: 90%;
+#harbour-title>p {
+  font-family: fira sans, sans-serif;
+  margin-bottom: 2px;
+  padding: 1px;
+  background-color: #6fa0df;
+  color: white;
+  font-size: 90%;
 }
 
 #high-street-title h1 {
-    font-size: 120%;
-    font-family: Oxygen, sans-serif;
-    padding-top: 20%;
-    padding-left: 2px;
-    border-bottom: 2px solid black;
+  font-size: 120%;
+  font-family: Oxygen, sans-serif;
+  padding-top: 20%;
+  padding-left: 2px;
+  border-bottom: 2px solid black;
 }
 
-#high-street-title  > p {
-    font-family: fira sans, sans-serif;
-
-    margin-bottom: 2px;
-    padding: 1px;
-    background-color: #6fa0df;
-    color: white;
-    font-size: 90%;
+#high-street-title>p {
+  font-family: fira sans, sans-serif;
+  margin-bottom: 2px;
+  padding: 1px;
+  background-color: #6fa0df;
+  color: white;
+  font-size: 90%;
 }
 
 p {
-    font-size: 80%;
-    font-family: fira sans, sans-serif;
+  font-size: 80%;
+  font-family: fira sans, sans-serif;
 }
-.section1 > a > img {
-    width: 100%;
+
+.section1>a>img {
+  width: 100%;
 }
 
 #column-photos1 {
-    clear: both;
-    line-height: 1;
-    column-count: 2;
-    column-gap: 1px ;
-    height: auto;
+  clear: both;
+  line-height: 1;
+  column-count: 2;
+  column-gap: 1px;
+  height: auto;
 }
 
 #column-photos2 {
-    clear: both;
-    line-height: 1;
-    column-count: 2;
-    column-gap: 1px ;
-    height: auto;
+  clear: both;
+  line-height: 1;
+  column-count: 2;
+  column-gap: 1px;
+  height: auto;
 }
 
 #column-photos3 {
-    clear: both;
-    line-height: 1;
-    column-count: 2;
-    column-gap: 1px ;
-    height: auto;
+  clear: both;
+  line-height: 1;
+  column-count: 2;
+  column-gap: 1px;
+  height: auto;
 }
 
-#column-photos1 > a > img {
-    width: 100%;
-    padding-top: 20px;
+#column-photos1>a>img {
+  width: 100%;
+  padding-top: 20px;
 }
 
-#column-photos2 > a > img {
-    width: 100%;
-    padding-top: 38px;
+#column-photos2>a>img {
+  width: 100%;
+  padding-top: 38px;
 }
 
 .description {
-    margin-top: 13px;
-    height: auto;
-    background-color: #6fa0df;
-    color: #ffffff;
-    line-height: 17px;
+  margin-top: 13px;
+  height: auto;
+  background-color: #6fa0df;
+  color: #ffffff;
+  line-height: 17px;
 }
 
-.description > p > a {
-    color: #ffffff;
-    font-size: 109%;
-    font-style: italic;
-    letter-spacing: 1px;
+.description>p>a {
+  color: #ffffff;
+  font-size: 109%;
+  font-style: italic;
+  letter-spacing: 1px;
 }
 
-#column-photos3 > a > img {
-    width: 100%;
-    padding-top: 20px;
+#column-photos3>a>img {
+  width: 100%;
+  padding-top: 20px;
 }
 
 #img-container {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 a {
-    text-decoration: none;
-    color: black;
-    font-family: fira sans, sans-serif;
-    font-size: 90%;
+  text-decoration: none;
+  color: black;
+  font-family: fira sans, sans-serif;
+  font-size: 90%;
 }
 
 #empty {
-    height: 300px;
-    width: auto;
+  height: 300px;
+  width: auto;
 }
 
 #empty p {
-    font-family: fira sans, sans-serif;
-    line-height: 35px;
-    margin-top: 60%;
-    padding: 6px;
+  font-family: fira sans, sans-serif;
+  line-height: 35px;
+  margin-top: 60%;
+  padding: 6px;
 }
 
 #shop-sign {
-    width: 100%;
+  width: 100%;
 }
+
 
 /* Contact Page */
 
 #goodbye {
-    background-image: url('../images/town_tour_images/ship_leaving.jpeg');
-    background-position: center;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 188px;
-    margin-top: 10%;
-    border-top: 2px solid black;
+  background-image: url('../images/town_tour_images/ship_leaving.jpeg');
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 188px;
+  margin-top: 10%;
+  border-top: 2px solid black;
 }
 
 #contact {
-    height: 550px;
-    width: 70%;
-    margin: 10% auto;
+  height: 550px;
+  width: 70%;
+  margin: 10% auto;
 }
 
 iframe {
-    width: 100%;
-    height: 300px;
-    margin-bottom: -4px;
-    padding-top: 2%;
+  width: 100%;
+  height: 300px;
+  margin-bottom: -4px;
+  padding-top: 2%;
 }
 
 form {
-    font-size: 100%;
-    width: 100%;
+  font-size: 100%;
+  width: 100%;
 }
 
 legend {
-    font-size: 150%;
-    font-family: fira sans, sans-serif;
-    float: left;
+  font-size: 150%;
+  font-family: fira sans, sans-serif;
+  float: left;
 }
 
 input {
-    border: 1px solid black;
-    width: 100%;
-    margin-top: 4px;
-    font-family: fira sans, sans-serif;
+  border: 1px solid black;
+  width: 100%;
+  margin-top: 4px;
+  font-family: fira sans, sans-serif;
 }
 
 fieldset {
-    width: 100%;
-    margin: 5px 0 0 0;
+  width: 100%;
+  margin: 5px 0 0 0;
 }
 
 textarea {
-    border: 1px solid black;
-    width: 100%;
+  border: 1px solid black;
+  width: 100%;
 }
 
 #contact-us {
-    width: 100%;
-    height: auto;
-    margin: 40% auto;
-    font-family: fira sans, sans-serif;
+  width: 100%;
+  height: auto;
+  margin: 40% auto;
+  font-family: fira sans, sans-serif;
 }
 
 span {
-    display: block;
-    text-align: center;
-    margin-top: 20px;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
 }
 
 #outer {
-    width:100%;
+  width: 100%;
 }
 
 .button1 {
-
-    width: 45%;
-    font-size: 75%;
-    float: left;
-    font-family: fira sans, sans-serif;
-    cursor: pointer;
-    padding: 4px 10px;
-    text-align: center;
-    outline: none;
-    color: #fff;
-    background-color: #6fa0df;
-    border: none;
-    border-radius: 15px;
+  width: 45%;
+  font-size: 75%;
+  float: left;
+  font-family: fira sans, sans-serif;
+  cursor: pointer;
+  padding: 4px 10px;
+  text-align: center;
+  outline: none;
+  color: #fff;
+  background-color: #6fa0df;
+  border: none;
+  border-radius: 15px;
 }
 
 .button2 {
-    width: 20%;
-    font-size: 75%;
-    float: right;
-    font-family: fira sans, sans-serif;
-    cursor: pointer;
-    padding: 4px 10px;
-    text-align: center;
-    outline: none;
-    color: #fff;
-    background-color: #6fa0df;
-    border: none;
-    border-radius: 15px;
+  width: 20%;
+  font-size: 75%;
+  float: right;
+  font-family: fira sans, sans-serif;
+  cursor: pointer;
+  padding: 4px 10px;
+  text-align: center;
+  outline: none;
+  color: #fff;
+  background-color: #6fa0df;
+  border: none;
+  border-radius: 15px;
 }
 
 @media screen and (min-width: 906px) {
-
-    /* Landing Page */
-
-    #picture-logo {
-        height: 188px;
-        width: 140px;
-        top: 266px;
-        left: 32%;
-
-    }
-
-    #logo {
-        font-size: 250%;
-    }
-
-    #navigation {
-        font-size: 180%;
-
-    }
-
-    #intro {
-        font-size: 100%;
-    }
-
-    header a {
-        font-size: 100%;
-    }
-    
-    /* Town Tour Page */
-
-    #beach-title h1 {
-        font-size: 200%;
-        margin-top: -5%;
-        padding-bottom: 5px;
-    }
-
-    #beach-title > p {
-        font-size: 105%;
-    }
-
-    #harbour-title h1 {
-        font-size: 200%;
-        padding-bottom: 5px;
-    }
-
-    #harbour-title > p {
-        font-size: 105%;
-    }
-
-    #high-street-title h1 {
-        font-size: 200%;
-        padding-bottom: 5px;
-    }
-
-    #high-street-title  > p {
-        font-size: 105%;
-    }
-
-    p {
-        font-size: 105%;
-    }
-    
-    .description {
-        font-size: 100%;
-    }
-
-    a {
-        font-size: 100%;
-    }
-
-    #empty p{
-        line-height: 60px;
-        margin-top: 60%;
-    }
-
-    /*Contact Page */
-    #goodbye {
-        margin-top: 20%;
-        height: 400px;
-    }
-
-    #contact {
-        display: flex;
-        margin: 4% auto -25% auto;
-    }
-    #contact-us {
-        margin-top: 5%;
-    }
-
-    /* Footer */
-
-    footer i {
-        font-size: 200%;
-    }
+  /* Landing Page */
+  #picture-logo {
+    height: 188px;
+    width: 140px;
+    top: 266px;
+    left: 32%;
+  }
+  #logo {
+    font-size: 250%;
+  }
+  #navigation {
+    font-size: 180%;
+  }
+  #intro {
+    font-size: 100%;
+  }
+  header a {
+    font-size: 100%;
+  }
+  /* Town Tour Page */
+  #beach-title h1 {
+    font-size: 200%;
+    margin-top: -5%;
+    padding-bottom: 5px;
+  }
+  #beach-title>p {
+    font-size: 105%;
+  }
+  #harbour-title h1 {
+    font-size: 200%;
+    padding-bottom: 5px;
+  }
+  #harbour-title>p {
+    font-size: 105%;
+  }
+  #high-street-title h1 {
+    font-size: 200%;
+    padding-bottom: 5px;
+  }
+  #high-street-title>p {
+    font-size: 105%;
+  }
+  p {
+    font-size: 105%;
+  }
+  .description {
+    font-size: 100%;
+  }
+  a {
+    font-size: 100%;
+  }
+  #empty p {
+    line-height: 60px;
+    margin-top: 60%;
+  }
+  /*Contact Page */
+  #goodbye {
+    margin-top: 20%;
+    height: 400px;
+  }
+  #contact {
+    display: flex;
+    margin: 4% auto -25% auto;
+  }
+  #contact-us {
+    margin-top: 5%;
+  }
+  /* Footer */
+  footer i {
+    font-size: 200%;
+  }
 }
 
 
 /*Desktop Screen Size*/
-@media screen and (min-width: 1405px) {
-    
-    /* Landing Page */
 
-html {
+@media screen and (min-width: 1405px) {
+  /* Landing Page */
+  html {
     width: 85%;
     margin: 5% auto;
-}
-
-header {
+  }
+  header {
     margin-top: -22%;
-}
-
-header a {
+  }
+  header a {
     font-size: 200%;
-}
-
-#picture-logo {
-        height: 206.8px;
-        width: 154px;
-        top: 370px;
-        left: 236px;
-    }
-
-#logo {
+  }
+  #picture-logo {
+    height: 206.8px;
+    width: 154px;
+    top: 370px;
+    left: 236px;
+  }
+  #logo {
     position: relative;
     float: left;
     top: 119px;
     left: 13%;
     font-size: 140%;
-}
-
-ul {
+  }
+  ul {
     float: right;
-}
-
-li {
+  }
+  li {
     float: left;
     margin: 0 20px 10px 20px;
     padding: 5px 15px 5px 15px;
-}
-
-#navigation {
+  }
+  #navigation {
     margin-top: 4%;
     font-size: 100%;
-}
-
-/* main banner */
-
-#main-banner-container {
+  }
+  /* main banner */
+  #main-banner-container {
     height: 600px;
-}
-
-#main-banner {
+  }
+  #main-banner {
     height: 600px;
-}
-
-p {
+  }
+  p {
     font-size: 213%;
     text-align: center;
-}
-
-#intro {
+  }
+  #intro {
     width: 70%;
     margin-top: 3%;
     margin-right: auto;
     margin-left: auto;
-}
-
-#landmarks-container {
+  }
+  #landmarks-container {
     width: 70%;
     margin-top: 2%;
     margin-right: auto;
     margin-left: auto;
-}
-
-#landmarks-photo {
+  }
+  #landmarks-photo {
     background-size: 100%;
-}
-#eat-local-container {
+  }
+  #eat-local-container {
     width: 70%;
     margin-top: 2%;
     margin-right: auto;
     margin-left: auto;
-}
-
-#food-stand-1 {
+  }
+  #food-stand-1 {
     background-size: 100%;
-}
-
-#book-a-stay-container {
+  }
+  #book-a-stay-container {
     width: 70%;
     margin-top: 2%;
     margin-right: auto;
     margin-left: auto;
-}
-
-#book-a-stay-photo {
+  }
+  #book-a-stay-photo {
     background-size: 100%;
-}
-
-#find-parking-container {
+  }
+  #find-parking-container {
     width: 70%;
     margin-top: 2%;
     margin-right: auto;
     margin-left: auto;
-}
-
-#find-parking-photo {
+  }
+  #find-parking-photo {
     background-size: 100%;
-}
-
-/* Town Tour Page */
-
-#beach-title {
+  }
+  /* Town Tour Page */
+  #beach-title {
     font-size: 150%;
     margin-top: 10%;
     padding-bottom: 5px;
-}
-
-#beach-title > p {
+  }
+  #beach-title>p {
     font-size: 80%;
-}
-
-.section1 {
+  }
+  .section1 {
     width: 70%;
     margin-top: 2%;
     margin-right: auto;
     margin-left: auto;
-}
-
-#column-photos1 {
+  }
+  #column-photos1 {
     width: 70%;
     margin-top: 2%;
     margin-right: auto;
     margin-left: auto;
-}
-
-#harbour-title {
+  }
+  #harbour-title {
     font-size: 150%;
     padding-bottom: 5px;
-}
-
-#harbour-title > p {
+  }
+  #harbour-title>p {
     font-size: 80%;
-}
-
-#column-photos2 {
+  }
+  #column-photos2 {
     width: 70%;
     margin-top: 2%;
     margin-right: auto;
     margin-left: auto;
-}
-
-#high-street-title {
+  }
+  #high-street-title {
     font-size: 150%;
     padding-bottom: 5px;
-}
-
-#high-street-title  > p {
+  }
+  #high-street-title>p {
     font-size: 80%;
-}
-
-p {
+  }
+  p {
     font-size: 140%;
     padding-top: 5px;
     padding-bottom: 5px;
     line-height: 30px;
-}
-
-#column-photos3 {
+  }
+  #column-photos3 {
     width: 70%;
     margin-top: 2%;
     margin-right: auto;
     margin-left: auto;
-}
-
-.description {
+  }
+  .description {
     font-size: 100%;
     width: 70%;
     margin-top: 2%;
     margin-right: auto;
     margin-left: auto;
-}
-
-a {
+  }
+  a {
     font-size: 100%;
-}
-
-#empty p{
+  }
+  #empty p {
     line-height: 60px;
     margin-top: 60%;
-}
-
-/*Contact Page */
-
-#contact-us {
+  }
+  /*Contact Page */
+  #contact-us {
     margin: 30% auto;
-}
-
-/* Footer */
-
-footer i {
+  }
+  /* Footer */
+  footer i {
     font-size: 200%;
-}
-
-/*Contact Page */
-
-#goodbye {
+  }
+  /*Contact Page */
+  #goodbye {
     margin-top: 20%;
     height: 400px;
-}
-
-#contact {
+  }
+  #contact {
     display: flex;
     margin: 4% auto -15% auto;
-}
-#contact-us {
+  }
+  #contact-us {
     margin-top: 5%;
-}
-
-iframe {
+  }
+  iframe {
     height: 500px;
-}
-
+  }
 }
