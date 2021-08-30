@@ -31,9 +31,10 @@ This website is designed to help users visiting the town of Folkestone to find p
 ## [8. Credits](#credits)
 
 <br><br>
+[Index](#top)
 
 # 1. <a name="user-ex">User Experience</a>
-Index
+
 ## A user visiting the website would expect the following:
 - To find it easy to understand the purpose of the website.
 - To easily navigate the website through it's contents.
