@@ -10,7 +10,7 @@ This website is designed to help users visiting the town of Folkestone to find p
 
 <br><br>
 
-# Table of Contents
+# <a name="top">Table of Contents</a>
 
 ## [1.User Experience](#user-ex) 
 - User Expectations
@@ -33,6 +33,7 @@ This website is designed to help users visiting the town of Folkestone to find p
 <br><br>
 
 # 1. <a name="user-ex">User Experience</a>
+Index
 ## A user visiting the website would expect the following:
 - To find it easy to understand the purpose of the website.
 - To easily navigate the website through it's contents.
@@ -54,7 +55,7 @@ This website is designed to help users visiting the town of Folkestone to find p
 - The primary purpose of the website is to attract visitors. 
 
 # <a name="features">2. Features</a>
-
+[Index](#top)
 ## Navigation ![Navigation bar](assets/images/readme_img/nav_bar.png)
 
 - The Navigation bar features a Lighthouse as the Logo of the Page, the main title "Visit Folkestone" and the 3 navigation tabs. 
@@ -65,6 +66,8 @@ This website is designed to help users visiting the town of Folkestone to find p
 
 <br/><br/>
 
+[Index](#top)
+
 ## Header ![The Header picture](assets/images/readme_img/header_intro.png)
 
 - The header contains the main banner of the page. The imaged in the banner zooms out as the user first loads up the page. 
@@ -72,6 +75,8 @@ This website is designed to help users visiting the town of Folkestone to find p
 - The colour scheme is continued in the header's description. 
 
 <br/><br/>
+
+[Index](#top)
 
 ## External Links Section ![Links Section Image](assets/images/readme_img/Links_Section.png)
 - The External Links section is made of four links which redirect the user to different websites depending on their interest. Clicking on any of the links will open a new tab to an external website. The background colour for each title tag was set in a way that it contrast with the white writing for the best user experience.
@@ -83,10 +88,14 @@ These four links are:
 
 <br/><br/>
 
+[Index](#top)
+
 ## Visit Folkestone Video ![Page Video](assets/images/readme_img/Video.png)
 - The video is situated at the bottom of the page. It's a video of Folkestone and it has been taken from the [Folkestone & Hythe Distric Council Youtube channel](https://www.youtube.com/embed/6g7u5iQxjm8). The video will play within the page but it not play automatically or looped. The video has controls such as play and pause, mute and unmute. 
 
 <br><br>
+
+[Index](#top)
 
 ## Footer <br>![Social Media Logos](assets/images/readme_img/footer.png)
 
@@ -95,6 +104,8 @@ These four links are:
 - The logos were imported from [Fontawesome](https://fontawesome.com/).
 
 <br><br>
+
+[Index](#top)
 
 ## Town Tour
 
@@ -109,6 +120,8 @@ These four links are:
 
 <br><br>
 
+[Index](#top)
+
 ## Contact
 ![Contact Page Screenshot](assets/images/readme_img/Contact_page_small.png)
 
@@ -117,6 +130,8 @@ These four links are:
 ![Form Result Message](assets/images/readme_img/form_result.png)
 
 <br><br>
+
+[Index](#top)
 
 ## <a name="wireframe">3. Website Wireframe</a>
 
@@ -135,6 +150,8 @@ Web Browser
 
 
 <br><br>
+
+[Index](#top)
 
 ## <a name="manual-testing">4. Manual Testing</a>
 
@@ -158,6 +175,8 @@ Footer | The footer contains four social media icons. Facebook, Instagram, Youtu
 
 <br><br>
 
+[Index](#top)
+
 ## <a name="tech-used">5. Technologies Used</a>
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5) HyperText Markup Language.
@@ -178,6 +197,8 @@ Footer | The footer contains four social media icons. Facebook, Instagram, Youtu
 
 <br><br>
 
+[Index](#top)
+
 ## <a name="deployment">6.Deployment</a>
 
 To deploy my website I have used GitHub. In order to do so I have followed the below steps:
@@ -193,6 +214,8 @@ To deploy my website I have used GitHub. In order to do so I have followed the b
 
 <br><br>
 
+[Index](#top)
+
 ## <a name="bugs">7.Bugs</a>
 
 - There were some initial bugs in the website which were solved later one with the help of my fellow colleagues in [Slack](https://slack.com/intl/en-gb/). Bugs included things such as: 
@@ -200,6 +223,8 @@ To deploy my website I have used GitHub. In order to do so I have followed the b
     - iFrame didn't work as did not used embeded code. 
 
    <br><br> 
+
+[Index](#top)
 
 ## <a name="credits"> 8. Credits</a>
 
