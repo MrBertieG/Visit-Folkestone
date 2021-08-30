@@ -4,7 +4,7 @@
 
 Welcome to [Visit *Folkestone*](https://mrbertieg.github.io/Visit-Folkestone/index.html) website.
 
-This website is designed to help users visiting the town of Folkestone to find popular landmarks, find a place to eat, explore and book a stay. Folkestone is located in the South East of Kent, UK. It is home to the famous Eurotunel connecting the UK and France via an undergreound tunnel under the English Channel.
+This website is designed to help users visiting the town of Folkestone to find popular landmarks, find a place to eat, explore and book a stay. Folkestone is located in the South East of Kent, UK. It is home to the famous Eurotunel connecting the UK and France via an underground tunnel under the English Channel.
 
 ![Image of Visit Folkestone](assets/images/readme_img/ami_responsive.png)
 
@@ -12,17 +12,27 @@ This website is designed to help users visiting the town of Folkestone to find p
 
 # Table of Contents
 
-## 1. User Expectation
+## [1.User Experience](#user-ex) 
+- User Expectations
+- Design Approach
 ## 2. Features
-## 3. Bugs
-## 4. Manual Testing
-## 5. Technologies Used
-## 6. Deployment
-## 7. Credits
+- Navigation
+- Header
+- External Links
+- Video
+- Footer
+- Town Tour Page
+- Contact Page
+## 3. Wireframe
+## 4. Deployment
+## 5. Manual Testing
+## 6. Technologies Used
+## 7. Bugs
+## 8. [Credits](#credits)
 
 <br><br>
 
-# User Expectations
+# 1. [User Expectations](#user-ex)
 ## A user visiting the website would expect the following:
 - To find it easy to understand the purpose of the website.
 - To easily navigate the website through it's contents.
@@ -32,16 +42,18 @@ This website is designed to help users visiting the town of Folkestone to find p
 - To find information on the places to park.
 - To find information on how to find the town.
 
+<br><br>
+
 ## Design Approach
-Then reason why I chose this design for the website is because it's simplicity. Users spend a matter of seconds on a website before they decide if this is the place for them or not. 
+- The reason why I chose this design for the website is because it's simplicity. Users spend a matter of seconds on a website before they decide if this is the place for them or not. 
 
-Visit Folkestone presents its information quickly and it allowes the users to find the location of where each picture was taken by clicking on each picture, whilst redirecting them to an exact location on Google Maps.
+- Visit Folkestone presents its information quickly and it allowes the users to find the location of where each picture was taken by clicking on each picture, whilst redirecting them to an exact location on Google Maps.
 
-The pictures on the website were taken by me, and I have kept the picture cropping to a minimum. The reason behind is to allow the user to experience the highest quality so that they can immerse themselvs in the experience. I believe that this is an important decisive factor if a user wants to visit the town of Folkestone.
+- The pictures on the website were taken by me, and I have kept the picture cropping to a minimum. The reason behind this is to allow the user to experience the highest quality so that they can immerse themselvs in the experience. I believe that this is an important decisive factor if a user wants to visit the town of Folkestone.
 
-The primary purpose of the websote is to attract visitors. 
+- The primary purpose of the website is to attract visitors. 
 
-# Features
+# 2. Features
 
 ## Navigation ![Navigation bar](assets/images/readme_img/nav_bar.png)
 
@@ -57,7 +69,7 @@ The primary purpose of the websote is to attract visitors.
 
 - The header contains the main banner of the page. The imaged in the banner zooms out as the user first loads up the page. 
 - The header contains a section where it explains to the user what is the main purpose of the website.
-- The colour scheme is continued in the headers description. 
+- The colour scheme is continued in the header's description. 
 
 <br/><br/>
 
@@ -66,7 +78,7 @@ The primary purpose of the websote is to attract visitors.
 These four links are:
     - Landmarks: This will take the user to an external webpage on [Tripadvisor](https://www.tripadvisor.co.uk/Attractions-g190749-Activities-c47-Folkestone_Kent_England.html)
     - Eat Local: This will take the user to an external webpage on [Folkelife.](https://folke.life/folkestone/food-and-drink/)
-    - Books a Stay: This will take the user to an external webpage on [Trivago](https://www.trivago.co.uk/folkestone-39398/hotel)
+    - Book a Stay: This will take the user to an external webpage on [Trivago](https://www.trivago.co.uk/folkestone-39398/hotel)
     - Find Parking: This will take the user to an external webpage [Folkestone & Hythe District Council/Parking](https://www.folkestone-hythe.gov.uk/parking/car-parks)
 
 <br/><br/>
@@ -74,7 +86,7 @@ These four links are:
 ## Visit Folkestone Video ![Page Video](assets/images/readme_img/Video.png)
 - The video is situated at the bottom of the page. It's a video of Folkestone and it has been taken from the [Folkestone & Hythe Distric Council Youtube channel](https://www.youtube.com/embed/6g7u5iQxjm8). The video will play within the page but it not play automatically or looped. The video has controls such as play and pause, mute and unmute. 
 
-    <br><br>
+<br><br>
 
 ## Footer <br>![Social Media Logos](assets/images/readme_img/footer.png)
 
@@ -100,9 +112,9 @@ These four links are:
 ## Contact
 ![Contact Page Screenshot](assets/images/readme_img/Contact_page_small.png)
 
-- This page contains a main picture banner, a feedback form where visitors can leave a commnet on their experience in visiting the town of Folkestone, contact details for the website's Admin Team and an interractive Google Maps for those who need to find out where Folkestone is located in the UK. 
-- Once filled in the form will present with the following action: 
-![Form Result Message]()
+- This page contains a main picture banner, a feedback form where visitors can leave a comment on their experience on visiting the town of Folkestone, contact details for the website's Admin Team and an interractive Google Maps for those who need to find out where Folkestone is located in the UK. 
+- Once filled, the form will present with the following action: 
+![Form Result Message](assets/images/readme_img/form_result.png)
 
 <br><br>
 
@@ -124,32 +136,27 @@ Web Browser
 
 <br><br>
 
-## Bugs
-
-- There were some initial bugs in the website which were solved later one with the help of my fellow colleagues in [Slack](https://slack.com/intl/en-gb/). Bugs included things such as: 
-    - Small section above the header was clickable but only showing in large screen sizes. 
-    - iFrame didn't work as did not used embeded code. 
-    
-
-<br><br>
-
 ## Manual Testing
 
 TEST | ACTION | RESULT |
 -----|:--------:|--------|
 Landing Page | Clicking on the Logo, Title, and Main Picture banner will redirect to the main landing page. Clicking on the video will play with no issues. All other links in the landing page will redirect the user to extewrnal pages. All links work correctly| PASS
 Town Tour Page | Clicking "Town Tour" tab in the nav bar will redirect you to the second page of the website. All images have been tested, and will redirect the user successfully to external pages | PASS
-Conttact Page | Clicking "Contact" tab in the nav bar will redirect you to the third page of the website. The submission form will send the information successfully to https://formdump.codeinstitute.net/ . The google maps interractive map also works successfully | PASS
+Contact Page | Clicking "Contact" tab in the nav bar will redirect you to the third page of the website. The submission form will send the information successfully to https://formdump.codeinstitute.net/ . The google maps interractive map also works successfully | PASS
 Text | All fonts and colours have been consistent throughout the website | PASS
-Footer | The footer contains four social media icons. Facebook, Instagram, Youtube, Twitter which when clicked, will redirect the user to their resipective website. | PASS
+Footer | The footer contains four social media icons. Facebook, Instagram, Youtube, Twitter which when clicked, will redirect the user to their respective website. | PASS
 
 
-- Chrome Developer Tools Lighthouse. Performance is in the amber zone due the the picture sizes. Visit Folkestone is a website designed to attract visitors so the aim is for the pictures to be as clear and high definition as possible to entice people to come over. The Website still performes well.
+- Chrome Developer Tools Lighthouse. The Performance is in the amber zone due the the picture sizes. Visit Folkestone is a website designed to attract visitors so the aim is for the pictures to be as clear and high definition as possible to entice people to come over. The Website still performes well.
 ![Lighthouse DevTools](assets/images/readme_img/Lighthouse_performance.png)
+![Lighthouse DevTools](assets/images/readme_img/Lighthouse_performance_town_tour.png)
+![Lighthouse DevTools](assets/images/readme_img/Lighthouse_performance_conact.png)
 - W3C Validator.
 ![W3C HTML Validator Screenshot](assets/images/readme_img/W3C_HTML_Validator.png)
 - Jigsaw Validator.
 ![W3C CSS Validator Screenshot](assets/images/readme_img/W3C_CSS_Validator.png)
+
+<br><br>
 
 ## Technologies Used
 
@@ -164,10 +171,12 @@ Footer | The footer contains four social media icons. Facebook, Instagram, Youtu
 - [Google Chrome](https://www.google.co.uk/chrome/?brand=FHFK&gclid=CjwKCAjw4KyJBhAbEiwAaAQbE7E7ZbTy2V4OGQXkCgmeXbu-JV5E2tI_lsBDZJbPAwgteMPU3DRvnxoCj_wQAvD_BwE&gclsrc=aw.ds) Is used to preview the website throught the development cycle. 
 - [Google DevTools](https://developers.google.com/web/tools) is used for tersting and also making changes in real time thriught the development process.
 - [Eye Dropper](https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka?hl=en) is a Chrome extension used to select colours and find out the rgba or hex combination of set colours. I used this to pick a colour from the sky of the main banner picture in the landing page in order to set the colour theme of the website. 
-- [Unocorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) is a Chrome extension used to preview margins of the Box Model CSS uses. It was particularly helpful to trouble shoot indentation issues and media query formating. 
+- [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) is a Chrome extension used to preview margins of the Box Model CSS uses. It was particularly helpful to trouble shoot indentation issues and media query formating. 
 - [Viewport Resizer](https://chrome.google.com/webstore/detail/viewport-resizer-%E2%80%93-respon/kapnjjcfcncngkadhpmijlkblpibdcgm?hl=en) is a Chrome extension used to simulate the viewport of various devices, from Mobile to Desktop. 
 - [Readme](https://chrome.google.com/webstore/detail/readme-text-to-speech-rea/npdkkcjlmhcnnaoobfdjndibfkkhhdfn?hl=en-GB) is a Text-to-speach reader. This was particularly useful to use as it shows first hand what might visually impaired users would hear if the pictures can't be seen. 
 - [W3C Markup](https://validator.w3.org/) and [Jigsaw](https://jigsaw.w3.org/css-validator/) validators are used to check the syntax of both languages.
+
+<br><br>
 
 ## Deployment
 
@@ -182,8 +191,17 @@ To deploy my website I have used GitHub. In order to do so I have followed the b
 - The web address will appear. Example: https://mrbertieg.github.io/Visit-Folkestone/
 - Refresh the page again and a green tick will appear next to the new web address. 
 
+<br><br>
 
-## Credits
+## Bugs
+
+- There were some initial bugs in the website which were solved later one with the help of my fellow colleagues in [Slack](https://slack.com/intl/en-gb/). Bugs included things such as: 
+    - Small section above the header was clickable but only showing in large screen sizes. 
+    - iFrame didn't work as did not used embeded code. 
+
+   <br><br> 
+
+## Credits <a name="credits"> Credits</a>
 
 - The zoom effect was inspired from the Love Running Project.
 - The Logo picture, Page title and all pictures but [one](assets/images/town_tour_images/ship_leaving.jpeg) were created and taken by me.
