@@ -234,6 +234,7 @@ To deploy my website I have used GitHub. In order to do so I have followed the b
     - iFrame didn't work as did not used embeded code. 
     - In the Town Tour page, not all pictures directed the user to a Google Maps external page but instead refreshed the page. One link was also broken due to a copy and paste error.
     - In the Navigation Bar, the padding from the navigation tabs overlapped meaning the user couldn't click on the correct link. This wa resolved by adjusting the padding on each navigation tab.
+    - Image file paths couldn't be found because the name formating wasn't correct. I have made sure all fo the file paths have a _ and no spacing. 
 
    <br><br> 
 
